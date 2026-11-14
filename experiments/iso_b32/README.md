@@ -27,7 +27,7 @@
 
 ## 输入与运行
 
-每个实验一份JSON。`prepared`指定含`spectrum.pt`和各数据集`.pt`的本地目录；每个数据集文件包含查询／图库特征、标签、身份名单、训练校准特征和样本指纹。具体字段见`isoclip/data.py::load_prepared`及`isoclip/prepare.py`。投影前／后的原缓存通过[数据Release](../../data/README.md)提供；运行仍需要相应数据集元数据和配置中约定的身份参考，实验结果不上传。
+每个实验一份JSON。`prepared`指定含`spectrum.pt`和各数据集`.pt`的本地目录；每个数据集文件包含查询／图库特征、标签、身份名单、训练校准特征和样本指纹。具体字段见`isoclip/data.py::load_prepared`及`isoclip/prepare.py`。投影前／后的原缓存由使用者[在本地生成](../../data/README.md)；运行还需要相应数据集元数据和配置中约定的身份参考。
 
 - `output`设置为尚不存在的新目录。
 - `gate_checkpoint`明确指定源监督倍率权重来源。
