@@ -9,7 +9,9 @@
 | `spectral.py` | 三参数谱倍率、PK16×8 采样、NCA 损失 |
 | `metrics.py` | 完整排序 AP、top10、固定排序 sklearn 交叉核验 |
 | `data.py` | 真实特征缓存、固定样本名单与训练／测试边界 |
-| `prepare.py` | 从已编码缓存重建 B/32 投影特征，不依赖旧研究脚本 |
+| `dataset_splits.py` | 从原始标注构建名单、标签与固定训练顺序，并校验PPT划分指纹 |
+| `extract.py` | 使用冻结B/32从原图提取投影前特征并保存为作者兼容缓存 |
+| `prepare.py` | 从原始标注与已编码缓存生成B/32中间文件，无旧prepared依赖 |
 | `train.py` | 复现 PPT 的源训练门控，骨干冻结 |
 | `evaluate.py` | 读取一个 JSON 配置，拟合、检索、保存变换与逐查询结果 |
 

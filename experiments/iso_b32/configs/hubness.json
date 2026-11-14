@@ -25,6 +25,6 @@
   "batch_size": 128,
   "seed": 20261105,
   "output": "runs/iso_b32/hubness",
-  "gate_checkpoint": "reproduction/research/iso_baseline_study/results/gate_training/gate.pt",
-  "prepared": "reproduction/research/iso_baseline_study/prepared"
+  "gate_checkpoint": "runs/iso_b32/gate_training/gate.pt",
+  "prepared": "runs/iso_b32/prepared"
 }

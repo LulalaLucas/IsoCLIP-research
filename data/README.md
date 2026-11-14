@@ -1,23 +1,66 @@
-# 在自己的机器上生成并保存缓存
+# 准备原始数据，在本机生成特征与中间文件
 
-本仓库不上传特征数据。复现者先准备原始数据集、对应训练／测试划分文件与模型权重，首次运行作者复现入口时，`src/utils.py::get_features`会编码并把特征保存到本地`data/`。再次运行相同骨干、数据集和划分时，会直接读取已有缓存。
+仓库包含生成代码与划分指纹，图像、模型、特征和实验结果保存在使用者自己的机器上。完整流程为：
 
-目录结构为：
+**原图与固定划分 → 投影前CLIP特征缓存 → IsoCLIP的prepared中间文件 → 策略拟合／训练与评测。**
 
-```text
-data/
-  image_features/<数据集>/<骨干>/<划分>/
-  image_noproj_features/<数据集>/<骨干>/<划分>/
-  text_features/<数据集>/<骨干>/<划分>/
-  text_noproj_features/<数据集>/<骨干>/<划分>/
+## 1. 准备原图和固定划分
+
+使用[CUB官方数据](https://www.vision.caltech.edu/datasets/cub_200_2011/)和[CoOp的数据准备说明](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md)。CoOp页面提供其他10个数据集的目录布局及固定`split_zhou_*.json`下载链接；Aircraft使用自己的文本标注文件。请使用固定划分，不要让旧加载器重新随机生成划分。
+
+下表相对于数据根目录`dataroot`。图片目录、元数据都需要准备好；不要求下载本项目的`.pt`或`.pkl`。
+
+| 配置中的数据集名称 | 图片目录 | 划分与标签文件 |
+| --- | --- | --- |
+| `cub2011` | `CUB_200_2011/images/` | `CUB_200_2011/`中的`images.txt`、`image_class_labels.txt`、`train_test_split.txt` |
+| `oxford_pets` | `oxford_pets/images/` | `oxford_pets/split_zhou_OxfordPets.json` |
+| `stanford_cars` | `stanford_cars/cars_train/`与`cars_test/` | `stanford_cars/split_zhou_StanfordCars.json` |
+| `fgvc_aircraft` | `fgvc_aircraft/images/` | `fgvc_aircraft/variants.txt`、`images_variant_train.txt`、`images_variant_test.txt` |
+| `caltech101` | `caltech-101/101_ObjectCategories/` | `caltech-101/split_zhou_Caltech101.json` |
+| `eurosat` | `eurosat/2750/` | `eurosat/split_zhou_EuroSAT.json` |
+| `oxford_flowers` | `oxford_flowers/jpg/` | `oxford_flowers/split_zhou_OxfordFlowers.json` |
+| `dtd` | `dtd/images/` | `dtd/split_zhou_DescribableTextures.json` |
+| `ucf101` | `ucf101/UCF-101-midframes/` | `ucf101/split_zhou_UCF101.json` |
+| `food101` | `food-101/images/` | `food-101/split_zhou_Food101.json` |
+| `sun397` | `sun397/SUN397/` | `sun397/split_zhou_SUN397.json` |
+
+在`experiments/iso_b32/configs/prepare.json`中设置`dataroot`，例如`"/mnt/datasets"`。配置内相对路径都从仓库根目录解析。已有数据可以用软链接组织，避免重复下载。
+
+## 2. 自动提取和保存特征
+
+在已安装完整环境且具有CUDA GPU的机器上，从仓库根目录运行：
+
+```bash
+python -m isoclip.extract --config experiments/iso_b32/configs/prepare.json
 ```
 
-每个目录保存特征`.pt`与对齐名称名单`.pkl`；Iso入口请求投影前特征，因此使用`*_noproj_features`。这些文件由代码自动写入，无需上传GitHub，也无需下载本项目作者的缓存。
+首次编码会通过OpenAI的CLIP加载器下载ViT-B/32到`cache/clip/ViT-B-32.pt`，并校验固定SHA-256。已有权重可提前放在该路径；如需换位置，修改配置的`checkpoint`，文件名保持`ViT-B-32.pt`。编码使用冻结的FP32骨干，取视觉投影前的768维特征，批大小32。
 
-运行原版复现可使用`src/retrieval.py`或`reproduction/programs/run_retrieval.py`配合相应配置，先把配置中的数据路径与输出目录改为自己的位置。
+默认保存到：
 
-## 探索入口的额外准备
+```text
+data/image_noproj_features/<数据集>/ViT-B32/<划分>/
+  image_noproj_features.pt
+  image_noproj_names.pkl
+```
 
-`isoclip.evaluate`与`isoclip.train`读取配置中`prepared`指向的中间文件。它们还包括标签、查询／图库身份、校准名单和谱；当前`isoclip.prepare`会读取已有的划分身份参考。这个准备步骤与首次提取原始特征分别完成，当前代码并非从空目录一条命令自动创建全部探索输入。
+CUB编码`all`，其余数据集分别编码`train`和`test`。再次运行会检查名单并复用已存在的缓存；缓存格式也与作者入口兼容。
 
-首次原图编码需要时间与计算，后续策略实验复用已经保存的特征即可。`data/`下生成的缓存由`.gitignore`排除。
+## 3. 自动生成prepared
+
+```bash
+python -m isoclip.prepare --config experiments/iso_b32/configs/prepare.json
+```
+
+`prepared`是本地生成的实验中间目录，默认`runs/iso_b32/prepared/`。准备程序从原始标注读取样本名单和标签，校验11个数据集的样本数、名单顺序及标签指纹，构造原Iso投影与谱，并生成：
+
+- `spectrum.pt`、`energy_basis.pt`：投影与子空间信息。
+- `<数据集>.pt`：查询／图库特征、标签、名单、训练校准子集及记录。
+- `mixed/`、`energy/`：明确配置使用的补充对照输入。
+- `manifest.json`：本次准备配置与各数据集的划分指纹。
+
+准备程序直接使用原始标注，不读取旧`prepared`或历史研究结果。所有校准样本都来自训练图库，测试查询不参与拟合。CUB保留原实验的确定性训练顺序，仍包含全部5994张官方训练图像；其余数据集保持固定划分文件中的顺序。校准集按文件名SHA-256排序选择至多4096张。
+
+如果出现`annotations differ from the frozen PPT protocol`，表示当前划分、顺序或标签与实验约定不一致，应核对固定划分文件。
+
+后续运行见[探索实验说明](../experiments/iso_b32/README.md)。`data/`、`datasets/`、`cache/`和`runs/`均被Git排除，生成后直接保存在复现者本机。

@@ -1,6 +1,7 @@
 # Local data, model files and generated outputs
 data/*
 !data/README.md
+/datasets/
 runs/
 cache/
 models/

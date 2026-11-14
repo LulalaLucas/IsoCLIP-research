@@ -1,0 +1,149 @@
+{
+  "description": "PPT benchmark identity contract; hashes only, no features or sample lists.",
+  "cub_gallery_order": "Native training rows: seed-42 per-class 80% followed by 20%; all native training images retained.",
+  "datasets": {
+    "cub2011": {
+      "gallery": {
+        "images": 5994,
+        "names_sha256": "f9ca5327c07e50699bba4798ffd0b4cca19afb2f82d01d68f00b98a82f106baa",
+        "labels_sha256": "ca60e66824af5a0a2f314ca25f0afd1e5b8f366dd9619d29215b9fc83006a585"
+      },
+      "query": {
+        "images": 5794,
+        "names_sha256": "3b38c84819ccd8ed9d4e7765e05d2a8dea9bdd97790aca96b6de3b330a9e7c49",
+        "labels_sha256": "86f9d1f2bdedb7e103aaa90d553503ea78b1db540f2d1d258f12c04cf67fb0cf"
+      },
+      "calibration_names_sha256": "0fa1195b5a53e190606c4b930182e40fa901ce8ff93ed9377c4c0843b46be2ca"
+    },
+    "oxford_pets": {
+      "gallery": {
+        "images": 2944,
+        "names_sha256": "9fff6debe1f646426bfff4e0a921306836c54c2ef1d46dde4b1e5ffa7a6b5490",
+        "labels_sha256": "afede8e4c9604cb442e232d583bd16af5c79e88da221d084e2446251cb7211e1"
+      },
+      "query": {
+        "images": 3669,
+        "names_sha256": "2aeac95f127136c1ab8107f11a6bbf541413f83ddb5f3598a12068b945d0701d",
+        "labels_sha256": "d81929cfdba8815e5cb095a51f64dab651898c832acad5635876f124e6dc28aa"
+      },
+      "calibration_names_sha256": "a9066f059dc62836638b532d2ebce29ee9bbbdf78475597a55e891e97d6fe247"
+    },
+    "stanford_cars": {
+      "gallery": {
+        "images": 6509,
+        "names_sha256": "870e45579254043b767c398aae17f3579e043b0bfbf637e42a22febcab8f6752",
+        "labels_sha256": "d24129685ad4ded82215af80e8855d94b4bd40cbf9bcc6fd296fe60843ec712f"
+      },
+      "query": {
+        "images": 8041,
+        "names_sha256": "8803173cbe950721d29e6430d2ff355ebe6eca04c49348d1607cddd430c95b47",
+        "labels_sha256": "2590441f4f8b67d23c9935c488ede4c18b231963d7c77064065ac06b9ce09257"
+      },
+      "calibration_names_sha256": "cb67428a04e6776e96feab5c7fafa68b60b76af50e6d9b37a620c1b1c896a638"
+    },
+    "fgvc_aircraft": {
+      "gallery": {
+        "images": 3334,
+        "names_sha256": "af1f625c995d0ec40d3405a58b7b5b33c30f616fa98441ec53ace59e92c0a75d",
+        "labels_sha256": "ccf23953718efe70d6d4cfaa9422780d13d200d601bc4f9cf3ec950f597a3333"
+      },
+      "query": {
+        "images": 3333,
+        "names_sha256": "1615111e8d42f280fd75a04499e61a68150e8497c94a2ad919c4aa8a418aad5e",
+        "labels_sha256": "67fb85f73e7af6c35e2b376bddb96ee85608d6b326478518d7fc67963bc114f4"
+      },
+      "calibration_names_sha256": "d60d4d5e8620d2e0cfb3ac7f08e595eda3161db51c826b2eab0ec47bd8ab74cd"
+    },
+    "caltech101": {
+      "gallery": {
+        "images": 4128,
+        "names_sha256": "dee9dce2629182379738bf8e1304c0916ec29af86aeefa38872eb21011de1dfc",
+        "labels_sha256": "03c24084b3a8dd7c0fdfac8dcb3dd95f73d8eee674ab72942c32d5168aac2fe0"
+      },
+      "query": {
+        "images": 2465,
+        "names_sha256": "f67953c27a2e8946dcceb3d026cbe4edda9d90853a9e2367bf451afc9a2ce678",
+        "labels_sha256": "8bfe447210352bece7144f9e07317522028c7f54f5c8fdf31df1645c92e8d1e5"
+      },
+      "calibration_names_sha256": "89f8cef9375e6a4c33c7152d79c8a5af4da0ab8f8606c8d3212eeb50013ff258"
+    },
+    "eurosat": {
+      "gallery": {
+        "images": 13500,
+        "names_sha256": "ff33189a3051d9307b259f2d9f6cc91c9e851cca6f9cd0eb11d1c7f19b731258",
+        "labels_sha256": "2006ef50f58d160e2611929c21d19d6ba8f571843dc2c29c247a1cd92d80c607"
+      },
+      "query": {
+        "images": 8100,
+        "names_sha256": "d31eb287530bf5537e874f55e71439eeac746d056e760473dc7565a2f31d959d",
+        "labels_sha256": "a9a9c8c8159f5c7da199854c111c9b1d9352a84a00159c5ddad7ac01144e13ac"
+      },
+      "calibration_names_sha256": "bd9f804cc9f0c4e8896468dca650551fce7186bfd12c6e7671f5267deb3bced3"
+    },
+    "oxford_flowers": {
+      "gallery": {
+        "images": 4093,
+        "names_sha256": "96b2d6e804704f0c2fdf9599ebccf49c4922cbe2b8770898d466464b870b614a",
+        "labels_sha256": "4d926ff2b4eab32bd63261a94374e57d778d616495b5fc72241cb443aca4d625"
+      },
+      "query": {
+        "images": 2463,
+        "names_sha256": "2530d9511a04a62bf514120ea70fc4fa3fcdc6a31b2487a317c836c8d38b5243",
+        "labels_sha256": "56595c3952a18e7bf082bdc589a725f14f9f6373a6023cea002761b03f21f650"
+      },
+      "calibration_names_sha256": "2c6839f7e7045f5280e3eb04329513c0b19704f6d1966de11c867f1acb7839cf"
+    },
+    "dtd": {
+      "gallery": {
+        "images": 2820,
+        "names_sha256": "3d195d2dcc631381c668fe25f7d4aceecccb0faf249b52e2bade8a3c94bf4653",
+        "labels_sha256": "c67f0b32911006977b3faa747ed8b593fdc224d65a4a1c528cfc26d9b5ba25b3"
+      },
+      "query": {
+        "images": 1692,
+        "names_sha256": "275e177a536e809a39a9ccd4310d4db7622195fd94130998660c618e57c3e273",
+        "labels_sha256": "a5dcb56831f30c7017cadaf016dc2dbcd33ea96e89730f9e132a96525c23ab09"
+      },
+      "calibration_names_sha256": "40e96caa31a45f96943e66dc130ba43069aa315a9bddf9bfe45b078c0cd8a2d4"
+    },
+    "ucf101": {
+      "gallery": {
+        "images": 7639,
+        "names_sha256": "2fe1b148b043b3e211c2b873c684ad7ec950dfa216d131ab432f6249249c56d0",
+        "labels_sha256": "8e10a4c8fc4ae4617352e8a3acc622585374ac265a56305fc0932a3ea0309d3a"
+      },
+      "query": {
+        "images": 3783,
+        "names_sha256": "63d3ec21198694a30716c53468e2d9a7be362585fd5cb01ecc080be43b1b67b9",
+        "labels_sha256": "eea9c9d1e7eb5309ede109cf45f33d385f255eca7c5891689e6128fb1e348575"
+      },
+      "calibration_names_sha256": "b742bfe673a48cdbd363e27f1e493ac7c7c2217d424844d1b003475b523cc26a"
+    },
+    "food101": {
+      "gallery": {
+        "images": 50500,
+        "names_sha256": "d00155f026d0325cd63375e17c2f2047e3c3afe2f8a0edc987dee15812cdc7c9",
+        "labels_sha256": "b5ccfccf964fbc2e9161445cb1f85f67a0d465b24b4a48bae8a8b9f37553649c"
+      },
+      "query": {
+        "images": 30300,
+        "names_sha256": "bb591d7b0ef85b9fd261368bd8412c7a22c76c816632b04927c46a63d9b175a3",
+        "labels_sha256": "d61554d88f5255afd0c5c65f9d70028c304d4f5aff8938d27fc7ab52eca605db"
+      },
+      "calibration_names_sha256": "f4ce7f6cb714774660b6c3e32b9c4288c31ca7463b98e1d2c23662e70bb1fa48"
+    },
+    "sun397": {
+      "gallery": {
+        "images": 15880,
+        "names_sha256": "ba264532dd80b7f1b80efbdbea67d6f19b2f63ef444e53b92120236d2863fcca",
+        "labels_sha256": "0fa9ea4dbf8226296dbc219f2e5d9a26f359ab53274c2c3746eb9e9e1a471e19"
+      },
+      "query": {
+        "images": 19850,
+        "names_sha256": "9faaa241517ab0c49838c101e1d91203572650bf44554a9bd726d8739d1945a6",
+        "labels_sha256": "536d90f46456886b827ce919668b0997705f506d720b3cb2dab7f4b6e03bef5f"
+      },
+      "calibration_names_sha256": "b2a336d05b66732b5589f195cb193613ba9e720d12a14a91ab09a15eaed023b6"
+    }
+  }
+}

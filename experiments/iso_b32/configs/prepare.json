@@ -1,8 +1,7 @@
 {
-  "checkpoint": "../cache/clip/ViT-B-32.pt",
+  "checkpoint": "cache/clip/ViT-B-32.pt",
   "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
-  "identity_reference": "reproduction/research/iso_baseline_study/prepared",
-  "output": "runs/iso_b32/rebuilt_prepared",
+  "output": "runs/iso_b32/prepared",
   "datasets": [
     "cub2011",
     "oxford_pets",
@@ -15,5 +14,10 @@
     "ucf101",
     "food101",
     "sun397"
-  ]
+  ],
+  "dataroot": "datasets",
+  "feature_cache": "data/image_noproj_features",
+  "protocol": "experiments/iso_b32/configs/protocol.json",
+  "batch_size": 32,
+  "workers": 4
 }

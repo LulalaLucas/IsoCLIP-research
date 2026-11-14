@@ -1,4 +1,4 @@
-"""Rebuild pure-Iso descriptors from real cached image features and frozen identities."""
+"""Build pure-Iso descriptors directly from native annotations and image caches."""
 import argparse
 import json
 from pathlib import Path
@@ -6,7 +6,8 @@ from pathlib import Path
 import torch
 import torch.nn.functional as F
 
-from .data import PROJECT, load_prepared, raw_features, sha256
+from .data import PROJECT, names_digest, raw_features, sha256
+from .dataset_splits import read_identity
 from .projection import image_projection, mixed_projection, projection_spectrum
 
 
@@ -15,7 +16,9 @@ def prepare(cfg):
     torch.set_num_threads(4)
     torch.backends.cuda.matmul.allow_tf32 = False
     torch.backends.cudnn.allow_tf32 = False
-    source = PROJECT/cfg['identity_reference']
+    dataroot = PROJECT/cfg['dataroot']
+    cache = PROJECT/cfg['feature_cache']
+    protocol = json.loads((PROJECT/cfg['protocol']).read_text())['datasets']
     out = PROJECT/cfg['output']
     out.mkdir(parents=True, exist_ok=False)
     (out/'mixed').mkdir()
@@ -35,15 +38,23 @@ def prepare(cfg):
     p, mp = projection.float().cuda(), mixed.float().cuda()
     records = []
     for ds in cfg['datasets']:
-        identity = load_prepared(source, ds)
-        gallery = raw_features(ds, 'train', identity['gallery_names'])
-        query = raw_features(ds, 'test', identity['query_names'])
+        identity = read_identity(dataroot, ds, protocol)
+        gallery = raw_features(ds, 'train', identity['gallery_names'], cache)
+        query = raw_features(ds, 'test', identity['query_names'], cache)
         lookup = {n: i for i, n in enumerate(identity['gallery_names'])}
         ids = [lookup[n] for n in identity['calibration_names']]
         raw = gallery[ids].double()
         identity['query'] = (query.cuda()@p).cpu()
         identity['gallery'] = (gallery.cuda()@p).cpu()
         identity['calibration'] = F.normalize(raw@projection, dim=1)
+        identity['record'] = {'dataset': ds, 'backbone': 'OpenAI CLIP ViT-B/32',
+            'checkpoint_sha256': cfg['checkpoint_sha256'], 'iso_rank': 312, 'output_dimensions': 512,
+            'query_split': 'native_test', 'gallery_split': 'native_train',
+            'cached_state': 'projected, unnormalized; normalized once before each operation',
+            'queries': len(query), 'gallery': len(gallery), 'calibration_images': len(ids),
+            'query_names_sha256': names_digest(identity['query_names']),
+            'gallery_names_sha256': names_digest(identity['gallery_names']),
+            'calibration_names_sha256': names_digest(identity['calibration_names']), 'test_used_for_fit': False}
         torch.save(identity, out/f'{ds}.pt')
         torch.save({'query': (query.cuda()@mp).cpu(), 'gallery': (gallery.cuda()@mp).cpu(),
             'calibration': F.normalize(raw@mixed, dim=1)}, out/'mixed'/f'{ds}.pt')

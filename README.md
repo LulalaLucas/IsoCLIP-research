@@ -31,13 +31,15 @@ python -m unittest discover -s tests -v
 
 ## 运行探索
 
-阅读[实验README](experiments/iso_b32/README.md)和[本地缓存说明](data/README.md)。先准备原始数据集、划分文件和模型权重；作者复现入口会在首次运行时编码并保存特征，后续复用。探索入口还需要配置中约定的prepared输入。修改配置中的路径及新的输出目录后运行：
+先按[环境说明](environment/README.md)恢复环境，再按[数据说明](data/README.md)准备原图与固定划分文件。修改`experiments/iso_b32/configs/prepare.json`中的`dataroot`为自己的数据根目录；默认`datasets/`表示仓库内的目录。已激活环境后运行：
 
 ```bash
-python -m isoclip.evaluate --config experiments/iso_b32/configs/center_b8.json
+bash experiments/iso_b32/run_all.sh
 ```
 
-代码要求输出目录尚不存在。图像与文本特征缓存使用`data/`，运行产物使用`runs/`。历史启动器保留原服务器的具体路径和已完成命令注释，换环境时需按实际位置调整。
+完整入口会依次提取并缓存图像特征、从原始划分生成`prepared`、训练源监督谱倍率、运行25个探索配置。首次编码时自动下载并校验官方B/32权重；其余阶段直接复用本地文件。所有探索输入均可重新生成，不需要本项目作者的缓存或结果。
+
+只跑基线或部分策略的分步命令见[实验README](experiments/iso_b32/README.md)。代码要求新生成的`prepared`和各实验输出目录尚不存在；重复提取则复用已有特征。图像缓存使用`data/`，中间数据、训练权重和结果使用`runs/iso_b32/`。旧启动器保留历史执行记录；首次复现使用新的`run_all.sh`或README中的分步命令。
 
 原方法与作者项目：[IsoCLIP](https://github.com/simomagi/IsoCLIP)。原许可证见[LICENSE](LICENSE)。
 

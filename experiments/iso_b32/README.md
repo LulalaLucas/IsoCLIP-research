@@ -27,20 +27,46 @@
 
 ## 输入与运行
 
-每个实验一份JSON。`prepared`指定含`spectrum.pt`和各数据集`.pt`的本地目录；每个数据集文件包含查询／图库特征、标签、身份名单、训练校准特征和样本指纹。具体字段见`isoclip/data.py::load_prepared`及`isoclip/prepare.py`。投影前／后的原缓存由使用者[在本地生成](../../data/README.md)；运行还需要相应数据集元数据和配置中约定的身份参考。
+先按[数据准备说明](../../data/README.md)下载原图和固定划分文件，再修改`configs/prepare.json`中的`dataroot`。所有相对路径从仓库根目录解析，默认权重在`cache/clip/`、原始特征在`data/`、中间输入和实验产物在`runs/iso_b32/`。
+
+准备脚本从原始标注生成全部身份名单与标签，按`configs/protocol.json`的固定指纹校验。该JSON只包含样本数与哈希，不包含特征或样本名单。首次提取时自动获取并校验官方B/32权重；无需本项目作者的旧prepared或研究结果。
+
+每个实验一份JSON。`prepared`默认指向`runs/iso_b32/prepared/`，含`spectrum.pt`和各数据集`.pt`。每个数据集文件包含查询／图库特征、标签、身份名单、训练校准特征和样本指纹。具体字段见`isoclip/data.py::load_prepared`及`isoclip/prepare.py`。
 
 - `output`设置为尚不存在的新目录。
 - `gate_checkpoint`明确指定源监督倍率权重来源。
 - `parameters.input_variant=iso`为纯Iso入口；`output_center`控制最终减均值。
 - 训练倍率仅用CUB／Pets／Cars的训练标签，固定2000次更新，原配置见`configs/gate_training.json`。
 
-从仓库根目录运行：
+在激活完整环境、具备CUDA GPU的机器上，从仓库根目录运行全部实验：
 
 ```bash
-python -m isoclip.evaluate --config experiments/iso_b32/configs/center_b8.json
-python -m isoclip.train --config experiments/iso_b32/configs/gate_training.json
+bash experiments/iso_b32/run_all.sh
 ```
 
-重建输入用`python -m isoclip.prepare --config experiments/iso_b32/configs/prepare.json`，需要先提供该配置约定的投影前特征缓存与冻结身份参考。
+`run_all.sh`依次执行图像编码、准备中间文件、2000步源监督训练和25个评测配置，每条调用都明确列出。骨干始终冻结。所有输出目录都应尚不存在。
 
-启动器均为零参数、直接调用Python；已完成命令注释保留，换环境后需明确调整路径和新输出位置。后续按“纯Iso起点→单项操作→机制对照→明确组合”组织实验。
+只检查基线与主要组合时，分步执行：
+
+```bash
+python -m isoclip.extract --config experiments/iso_b32/configs/prepare.json
+python -m isoclip.prepare --config experiments/iso_b32/configs/prepare.json
+python -m isoclip.evaluate --config experiments/iso_b32/configs/iso.json
+python -m isoclip.evaluate --config experiments/iso_b32/configs/center_b8.json
+```
+
+只有`gate3`和`gate_center_b8`依赖训练权重；运行它们之前执行：
+
+```bash
+python -m isoclip.train --config experiments/iso_b32/configs/gate_training.json
+python -m isoclip.evaluate --config experiments/iso_b32/configs/gate3.json
+python -m isoclip.evaluate --config experiments/iso_b32/configs/gate_center_b8.json
+```
+
+各实验输出目录包含`results.json`、逐查询AP与top10的`*_queries.npz`和`*_transform.pt`；训练输出`gate_training/gate.pt`、`history.json`和`completed.json`。这些文件自动保存在本机，由Git忽略。
+
+如果只想先用一个数据集试跑，复制`prepare.json`及所选评测JSON，将它们的`datasets`都改成同一个名称，并给它们设置对应的新输出目录与`prepared`路径。源监督训练需要CUB、Pets、Cars三个源训练集，不能用单个目标集替代。
+
+已有特征可重复执行`extract`并复用缓存。`prepare`和评测拒绝覆盖已有输出；完成准备后可跳过前两步，直接执行尚未运行的策略配置。换一轮实验时修改对应`output`；换prepared位置时同步修改评测和训练配置的`prepared`，换训练输出时同步修改两个门控评测配置的`gate_checkpoint`。
+
+新的`run_all.sh`使用当前激活环境中的Python，可从任意仓库位置启动。其他旧启动器保留原服务器上的已完成命令注释，作为历史运行记录。后续按“纯Iso起点→单项操作→机制对照→明确组合”组织实验。

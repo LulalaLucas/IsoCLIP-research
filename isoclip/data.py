@@ -6,7 +6,6 @@ import pickle
 import torch
 
 PROJECT = Path(__file__).resolve().parents[1]
-STUDY = PROJECT/'reproduction/research/iso_baseline_study'
 DATASETS = ['cub2011', 'oxford_pets', 'stanford_cars', 'fgvc_aircraft', 'caltech101',
     'eurosat', 'oxford_flowers', 'dtd', 'ucf101', 'food101', 'sun397']
 SOURCES = ['cub2011', 'oxford_pets', 'stanford_cars']
@@ -36,10 +35,10 @@ def load_prepared(prepared, dataset):
     return data
 
 
-def raw_features(dataset, split, names):
+def raw_features(dataset, split, names, cache_root):
     """Read existing real backbone features in the explicit frozen name order."""
     storage = 'all' if dataset == 'cub2011' else split
-    directory = PROJECT/'data/image_noproj_features'/dataset/'ViT-B32'/storage
+    directory = Path(cache_root)/dataset/'ViT-B32'/storage
     raw = torch.load(directory/'image_noproj_features.pt', map_location='cpu').float()
     with (directory/'image_noproj_names.pkl').open('rb') as stream:
         cached_names = pickle.load(stream)

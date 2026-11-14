@@ -12,5 +12,5 @@
     "stanford_cars"
   ],
   "output": "runs/iso_b32/gate_training",
-  "prepared": "reproduction/research/iso_baseline_study/prepared"
+  "prepared": "runs/iso_b32/prepared"
 }
