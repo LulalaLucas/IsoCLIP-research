@@ -1,0 +1,1118 @@
+{
+  "version": "data-20261114",
+  "created_at": "2026-11-14T12:09:25.746786+00:00",
+  "scope": "All216files under IsoCLIP/data: cached image/text features and aligned names for CLIP B/16 and B/32.",
+  "file_count": 216,
+  "bytes": 2760490482,
+  "groups": [
+    {
+      "kind": "image_features",
+      "file_count": 84,
+      "bytes": 859574962,
+      "archive": "image_features.tar.gz"
+    },
+    {
+      "kind": "image_noproj_features",
+      "file_count": 84,
+      "bytes": 1283166320,
+      "archive": "image_noproj_features.tar.gz"
+    },
+    {
+      "kind": "text_features",
+      "file_count": 24,
+      "bytes": 308874390,
+      "archive": "text_features.tar.gz"
+    },
+    {
+      "kind": "text_noproj_features",
+      "file_count": 24,
+      "bytes": 308874810,
+      "archive": "text_noproj_features.tar.gz"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/image_features/caltech101/ViT-B16/test/image_features.pt",
+      "bytes": 5049535,
+      "sha256": "7198dfca16ba30936e856bdfea7f4c1eec9a345a13eea8794ee9f00bfa271bf0"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B16/test/image_names.pkl",
+      "bytes": 66255,
+      "sha256": "cca29ca222580afd1a776e7cc8e2b1e4f8897b8c9aac2b423d82f6b43aa41c2a"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B16/train/image_features.pt",
+      "bytes": 8455359,
+      "sha256": "b8aff46f299cf45fe7c6e14ab4be6f58c93f286eca913c7d29e00d834ca702ff"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B16/train/image_names.pkl",
+      "bytes": 110990,
+      "sha256": "7d426d28adfe1b3c0a9c1e19ddf5ac4da144f5e6cdf75fe9fbbe9a01c0b25679"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B32/test/image_features.pt",
+      "bytes": 5049535,
+      "sha256": "7c9fae3ce0d33a7f312d945d99f4245816e5495267c50952928ef4b879858ff6"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B32/test/image_names.pkl",
+      "bytes": 66255,
+      "sha256": "cca29ca222580afd1a776e7cc8e2b1e4f8897b8c9aac2b423d82f6b43aa41c2a"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B32/train/image_features.pt",
+      "bytes": 8455359,
+      "sha256": "d12ede7420eb4df00f9c6e52e2c9d296bc97b34ecb7f39eccd4cd36c26891820"
+    },
+    {
+      "path": "data/image_features/caltech101/ViT-B32/train/image_names.pkl",
+      "bytes": 110990,
+      "sha256": "7d426d28adfe1b3c0a9c1e19ddf5ac4da144f5e6cdf75fe9fbbe9a01c0b25679"
+    },
+    {
+      "path": "data/image_features/cub2011/ViT-B16/all/image_features.pt",
+      "bytes": 24143039,
+      "sha256": "53bed80efee9643ddfb5d74faed97110020692c92976f218e6b2512fdf3154f0"
+    },
+    {
+      "path": "data/image_features/cub2011/ViT-B16/all/image_names.pkl",
+      "bytes": 355732,
+      "sha256": "706e6204c5d0bcb1e1928a0fdb43ad74a5af3dd728dfb9b6efef5cdf7fef3309"
+    },
+    {
+      "path": "data/image_features/cub2011/ViT-B32/all/image_features.pt",
+      "bytes": 24143039,
+      "sha256": "b2191dfe30ed96055ed0a9c9e616e9e2afb1b923b1adca80dace2820dfce1a90"
+    },
+    {
+      "path": "data/image_features/cub2011/ViT-B32/all/image_names.pkl",
+      "bytes": 355732,
+      "sha256": "706e6204c5d0bcb1e1928a0fdb43ad74a5af3dd728dfb9b6efef5cdf7fef3309"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B16/test/image_features.pt",
+      "bytes": 3466431,
+      "sha256": "fd5c1dbaee0a6210218ec6775831e1117425cf38d89981f369ed1970d6646aca"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B16/test/image_names.pkl",
+      "bytes": 48690,
+      "sha256": "2c9e44c6d084d23c0d4e1341e61ab9c51b3d9fe4a86f2540b6c4fe1735330ef3"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B16/train/image_features.pt",
+      "bytes": 5776575,
+      "sha256": "18fbb923778f1a133cb7cf768cd93ee727574042794b6e5cbb7b41ac1834e5e9"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B16/train/image_names.pkl",
+      "bytes": 81149,
+      "sha256": "f3cdd2b17a654684e346b1f3db3449a6fd05585d849802543dadd44a10cdf1e3"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B32/test/image_features.pt",
+      "bytes": 3466431,
+      "sha256": "bcc9670c794207c01b422351a655691550e0789d5ad085dd05550ffff27e7dcb"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B32/test/image_names.pkl",
+      "bytes": 48690,
+      "sha256": "2c9e44c6d084d23c0d4e1341e61ab9c51b3d9fe4a86f2540b6c4fe1735330ef3"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B32/train/image_features.pt",
+      "bytes": 5776575,
+      "sha256": "c19fefb8fead49e91e8850e68f6a27db05c5baac9e3749d49f68d627d6c32f71"
+    },
+    {
+      "path": "data/image_features/dtd/ViT-B32/train/image_names.pkl",
+      "bytes": 81149,
+      "sha256": "f3cdd2b17a654684e346b1f3db3449a6fd05585d849802543dadd44a10cdf1e3"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B16/test/image_features.pt",
+      "bytes": 16590015,
+      "sha256": "f9696d93fff07795f110a5b49918353631f6dde6819248bcf68301b0f681c0b0"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B16/test/image_names.pkl",
+      "bytes": 268284,
+      "sha256": "fc2eb0d098c741b60ae92f282a533db7c974adc1286a56a263a12abadb7bb503"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B16/train/image_features.pt",
+      "bytes": 27649215,
+      "sha256": "8c8be09058657d281d513578cf44ad5a6503657f10d96caae0028f1daef2989f"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B16/train/image_names.pkl",
+      "bytes": 447030,
+      "sha256": "6ac79835b066e0066c6c089c9ea54f969cb0af88e17fcec959299a506b210540"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B32/test/image_features.pt",
+      "bytes": 16590015,
+      "sha256": "e7a49c23423cfad1638d5cbb4c8ba6b430dd947f2f55507a5d5840bcb368fbf0"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B32/test/image_names.pkl",
+      "bytes": 268284,
+      "sha256": "fc2eb0d098c741b60ae92f282a533db7c974adc1286a56a263a12abadb7bb503"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B32/train/image_features.pt",
+      "bytes": 27649215,
+      "sha256": "7e519fabe571349f286dfcb71f5edc8e53e43e4d155d54ed7985cfd5d86f6161"
+    },
+    {
+      "path": "data/image_features/eurosat/ViT-B32/train/image_names.pkl",
+      "bytes": 447030,
+      "sha256": "6ac79835b066e0066c6c089c9ea54f969cb0af88e17fcec959299a506b210540"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B16/test/image_features.pt",
+      "bytes": 6827199,
+      "sha256": "6741e4c3b659fd53516df38fb28819d2934a6422a52c645463d3a3e6e905e9e7"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B16/test/image_names.pkl",
+      "bytes": 73357,
+      "sha256": "431c0d43195e8999b262ef3a866d87a9026c6914a7b034b86c4291c030983ff7"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B16/train/image_features.pt",
+      "bytes": 6829247,
+      "sha256": "c5c3341e35e6abc4d43f1a0255bad0fa5b81dd25fffa940ce2b3622eadf19536"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B16/train/image_names.pkl",
+      "bytes": 73379,
+      "sha256": "71586fa2e6f9625a0d18245565f0fe341cc055f2e2398b3fce94fe5f08947a5f"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B32/test/image_features.pt",
+      "bytes": 6827199,
+      "sha256": "e3f6bc4d07d44c3427a2f273a0949f4a1f5f9378765711d1d9cb87efe55ded38"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B32/test/image_names.pkl",
+      "bytes": 73357,
+      "sha256": "431c0d43195e8999b262ef3a866d87a9026c6914a7b034b86c4291c030983ff7"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B32/train/image_features.pt",
+      "bytes": 6829247,
+      "sha256": "2e8bc942ca1d81bee63d23f926fb030135a164a9209e2ab77572e07c84ff1980"
+    },
+    {
+      "path": "data/image_features/fgvc_aircraft/ViT-B32/train/image_names.pkl",
+      "bytes": 73379,
+      "sha256": "71586fa2e6f9625a0d18245565f0fe341cc055f2e2398b3fce94fe5f08947a5f"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B16/test/image_features.pt",
+      "bytes": 62055615,
+      "sha256": "0363d4d67561794d05833dd86f501200f155f7649c72c27f6361982f24e94921"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B16/test/image_names.pkl",
+      "bytes": 799929,
+      "sha256": "2007d6d166109755f956ed25d39df00cabc2dea54823f624c2483dcc30ccb98d"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B16/train/image_features.pt",
+      "bytes": 103425215,
+      "sha256": "6690ec5e41ee63f36281e19182caba59b1889c0a037500ab2d034d7f8a83ec46"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B16/train/image_names.pkl",
+      "bytes": 1332705,
+      "sha256": "b4da4579862c4c8588501fc6387130cfab946c39cbfc49c0edb3e3194532ae23"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B32/test/image_features.pt",
+      "bytes": 62055615,
+      "sha256": "5ecca5556f08d1b6bb56bf1ff72c7f4374db94c5640a6c678b34685054699a24"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B32/test/image_names.pkl",
+      "bytes": 799929,
+      "sha256": "2007d6d166109755f956ed25d39df00cabc2dea54823f624c2483dcc30ccb98d"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B32/train/image_features.pt",
+      "bytes": 103425215,
+      "sha256": "a43191077db8e9b4db7272783315c19ddd7f7694277725cf48856dc4901db8c3"
+    },
+    {
+      "path": "data/image_features/food101/ViT-B32/train/image_names.pkl",
+      "bytes": 1332705,
+      "sha256": "b4da4579862c4c8588501fc6387130cfab946c39cbfc49c0edb3e3194532ae23"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B16/test/image_features.pt",
+      "bytes": 5045439,
+      "sha256": "f6512057bc156884818bd39994a8a84713b55217c8b7297054503bf2eafff670"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B16/test/image_names.pkl",
+      "bytes": 56669,
+      "sha256": "af7cfe562aff42e1d9565669e1da831d9792fb6cd9f8f73ffc6a30acd726f171"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B16/train/image_features.pt",
+      "bytes": 8383679,
+      "sha256": "3140d547f7d48e2a17b83f7314183b8e47f064da816c1678400cc6f789e3286c"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B16/train/image_names.pkl",
+      "bytes": 94172,
+      "sha256": "c6c65f50515bfa6f77940e19294db3cef14fb9cc05bbc5952b6f16771fce2073"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B32/test/image_features.pt",
+      "bytes": 5045439,
+      "sha256": "ad020f48b6ada7f765e4b0487b74fb199ed9c12bd53326e16dea08cd1b00027b"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B32/test/image_names.pkl",
+      "bytes": 56669,
+      "sha256": "af7cfe562aff42e1d9565669e1da831d9792fb6cd9f8f73ffc6a30acd726f171"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B32/train/image_features.pt",
+      "bytes": 8383679,
+      "sha256": "90b18571c599b967703168d25272656ce797424084388a14e9a89f30f72c5e39"
+    },
+    {
+      "path": "data/image_features/oxford_flowers/ViT-B32/train/image_names.pkl",
+      "bytes": 94172,
+      "sha256": "c6c65f50515bfa6f77940e19294db3cef14fb9cc05bbc5952b6f16771fce2073"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B16/test/image_features.pt",
+      "bytes": 7515327,
+      "sha256": "30cf1df534411b381a89d74a7fad71b49f48a69c85bb7724b90221d3b4b0ece0"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B16/test/image_names.pkl",
+      "bytes": 109031,
+      "sha256": "f8083fecd87913c6b09ee86f3c068f446cf48083dc897db9faaa58cd823662c4"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B16/train/image_features.pt",
+      "bytes": 6030527,
+      "sha256": "6b83b16f585049f5eede32f7dc8c0a5cca3b931af5c27d36d7fe17bef3f37a47"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B16/train/image_names.pkl",
+      "bytes": 90059,
+      "sha256": "82d907d4b9eb07875500bfa1639b15ddc67715766fbd75d3ac4e41b3699adc04"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B32/test/image_features.pt",
+      "bytes": 7515327,
+      "sha256": "f7507af532aa9f9cdf27fce7fffad0bdf1b2da253703aaecb5b7fafb27831e9d"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B32/test/image_names.pkl",
+      "bytes": 109031,
+      "sha256": "f8083fecd87913c6b09ee86f3c068f446cf48083dc897db9faaa58cd823662c4"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B32/train/image_features.pt",
+      "bytes": 6030527,
+      "sha256": "9b4856dbaa7b9b512d787eb240f581363fa13e8684aa54edc8814a7ffd3c21b0"
+    },
+    {
+      "path": "data/image_features/oxford_pets/ViT-B32/train/image_names.pkl",
+      "bytes": 90059,
+      "sha256": "82d907d4b9eb07875500bfa1639b15ddc67715766fbd75d3ac4e41b3699adc04"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B16/test/image_features.pt",
+      "bytes": 16469183,
+      "sha256": "d6f0b1b08888cbb21f1873974ed4a4db8383c7a0933259e73d0d274c27e67eb0"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B16/test/image_names.pkl",
+      "bytes": 184993,
+      "sha256": "57e244291d28dd16681f216a3ed1b78692848a39ddcf3ff19586d6b488ab9cba"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B16/train/image_features.pt",
+      "bytes": 13331647,
+      "sha256": "3e24b6a4321db98c9ef0c6f1e4277f33cd5a7c1cfe73a8afb721acbb4812f590"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B16/train/image_names.pkl",
+      "bytes": 156262,
+      "sha256": "ce8e680e7b82bb025f0bfc23874e46b81f21b7311f39b28f815c48cf9bd82479"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B32/test/image_features.pt",
+      "bytes": 16469183,
+      "sha256": "34ad9f4ce9ecedb0c744250ffb56de0bf75483c305dab3889e6f3bac7ac78c40"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B32/test/image_names.pkl",
+      "bytes": 184993,
+      "sha256": "57e244291d28dd16681f216a3ed1b78692848a39ddcf3ff19586d6b488ab9cba"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B32/train/image_features.pt",
+      "bytes": 13331647,
+      "sha256": "3e37fd8f88698e44cc203a05f92068d32025cb7cec506b6cdad123a7c61472fe"
+    },
+    {
+      "path": "data/image_features/stanford_cars/ViT-B32/train/image_names.pkl",
+      "bytes": 156262,
+      "sha256": "ce8e680e7b82bb025f0bfc23874e46b81f21b7311f39b28f815c48cf9bd82479"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B16/test/image_features.pt",
+      "bytes": 40654015,
+      "sha256": "6f51da13897338d52b6cc54aa95962de68fc10e757c9bb0114e9541d41101663"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B16/test/image_names.pkl",
+      "bytes": 750303,
+      "sha256": "6ea8fedb56ffb972f92be972b145fecb5136702c62c872c3c0eb98b21f85cd17"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B16/train/image_features.pt",
+      "bytes": 32523455,
+      "sha256": "bd5b55c09f4bd501a7ae745d7665174930c24e32befe3ae241b73d72d856f1fa"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B16/train/image_names.pkl",
+      "bytes": 600247,
+      "sha256": "4999701f2c98f599700c6fc828f992349ea4b1e40d46f3199e05b449a57fa15c"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B32/test/image_features.pt",
+      "bytes": 40654015,
+      "sha256": "fed03b8dabe4e9298da7253fa5262cbecff8453d171e1ce842f760915bbb15ec"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B32/test/image_names.pkl",
+      "bytes": 750303,
+      "sha256": "6ea8fedb56ffb972f92be972b145fecb5136702c62c872c3c0eb98b21f85cd17"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B32/train/image_features.pt",
+      "bytes": 32523455,
+      "sha256": "7936705d617c10483ae314919160595a8be7e4e3db8f14fb1bfcaa65e52067d0"
+    },
+    {
+      "path": "data/image_features/sun397/ViT-B32/train/image_names.pkl",
+      "bytes": 600247,
+      "sha256": "4999701f2c98f599700c6fc828f992349ea4b1e40d46f3199e05b449a57fa15c"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B16/test/image_features.pt",
+      "bytes": 7748799,
+      "sha256": "5d3cef3ba62a4132d91cd1c8abcb8f3165e7c27d5051a944e1f060685206d978"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B16/test/image_names.pkl",
+      "bytes": 156680,
+      "sha256": "db0c2db5494d17bd3c24876b29e49617f5dce380c3225531d2ad58665dbff20d"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B16/train/image_features.pt",
+      "bytes": 15645887,
+      "sha256": "380a9897b72b8d4f406bd78aad9bf64e8bc8db08190e0ea7da71029ee8a2fdaa"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B16/train/image_names.pkl",
+      "bytes": 316162,
+      "sha256": "8e8d4e69ac4150e88e93e190968cf57dbf44deb73182bddf84d442685e3c6857"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B32/test/image_features.pt",
+      "bytes": 7748799,
+      "sha256": "f1484fdf88d5cffcf4100e03381a245e19cb2a9845b916c452a8903418097e15"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B32/test/image_names.pkl",
+      "bytes": 156680,
+      "sha256": "db0c2db5494d17bd3c24876b29e49617f5dce380c3225531d2ad58665dbff20d"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B32/train/image_features.pt",
+      "bytes": 15645887,
+      "sha256": "8d0cde8ada5bd3547913d717afd451b3bc336fba568c8de1053e999c803f79a1"
+    },
+    {
+      "path": "data/image_features/ucf101/ViT-B32/train/image_names.pkl",
+      "bytes": 316162,
+      "sha256": "8e8d4e69ac4150e88e93e190968cf57dbf44deb73182bddf84d442685e3c6857"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 7573730,
+      "sha256": "599d516c02637bef6d7e0c35ed8a6d962d56f3ecb0f066698a9076c8e4a6cff0"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 66255,
+      "sha256": "cca29ca222580afd1a776e7cc8e2b1e4f8897b8c9aac2b423d82f6b43aa41c2a"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 12682466,
+      "sha256": "fd4d4576142d3252c5258e8eda0bb98bc5c56239e7dd8cd69ffdd31978265523"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 110990,
+      "sha256": "7d426d28adfe1b3c0a9c1e19ddf5ac4da144f5e6cdf75fe9fbbe9a01c0b25679"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 7573730,
+      "sha256": "18941e2ff851b69bbb9021aab882c8991a87ac0641a2a1fd5f2b250ee53d7d46"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 66255,
+      "sha256": "cca29ca222580afd1a776e7cc8e2b1e4f8897b8c9aac2b423d82f6b43aa41c2a"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 12682466,
+      "sha256": "bb390c4e7921fc932648ae2db2c4cca5ccd5ad75fef3067b8c4926e796e92780"
+    },
+    {
+      "path": "data/image_noproj_features/caltech101/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 110990,
+      "sha256": "7d426d28adfe1b3c0a9c1e19ddf5ac4da144f5e6cdf75fe9fbbe9a01c0b25679"
+    },
+    {
+      "path": "data/image_noproj_features/cub2011/ViT-B16/all/image_noproj_features.pt",
+      "bytes": 36213986,
+      "sha256": "d5f48292a250f7a199691d78981fdfc7da3ac7d8e4207115662a35ca8cce9f42"
+    },
+    {
+      "path": "data/image_noproj_features/cub2011/ViT-B16/all/image_noproj_names.pkl",
+      "bytes": 355732,
+      "sha256": "706e6204c5d0bcb1e1928a0fdb43ad74a5af3dd728dfb9b6efef5cdf7fef3309"
+    },
+    {
+      "path": "data/image_noproj_features/cub2011/ViT-B32/all/image_noproj_features.pt",
+      "bytes": 36213986,
+      "sha256": "0192a1bedf7dd82aafe125cf21a978620f0acc8049c7ec31bc52a123f389cf64"
+    },
+    {
+      "path": "data/image_noproj_features/cub2011/ViT-B32/all/image_noproj_names.pkl",
+      "bytes": 355732,
+      "sha256": "706e6204c5d0bcb1e1928a0fdb43ad74a5af3dd728dfb9b6efef5cdf7fef3309"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 5199074,
+      "sha256": "fac9d4d034c085f3af63bfeb8a463fa4dd1105e8cbfcb56f219f6797ae90de51"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 48690,
+      "sha256": "2c9e44c6d084d23c0d4e1341e61ab9c51b3d9fe4a86f2540b6c4fe1735330ef3"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 8664290,
+      "sha256": "bd41dafbb03b88650e05ca540d09c04d5ea66d9138fd8871325505bca21d3708"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 81149,
+      "sha256": "f3cdd2b17a654684e346b1f3db3449a6fd05585d849802543dadd44a10cdf1e3"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 5199074,
+      "sha256": "e4fc95c086033197fdd61e380b416ed584e8901db743d093ac7be9eb5ec389c2"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 48690,
+      "sha256": "2c9e44c6d084d23c0d4e1341e61ab9c51b3d9fe4a86f2540b6c4fe1735330ef3"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 8664290,
+      "sha256": "54d57a6a96766032f2f3e591c1b1938ff361f8b9e12303685b4f0077fd347aa5"
+    },
+    {
+      "path": "data/image_noproj_features/dtd/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 81149,
+      "sha256": "f3cdd2b17a654684e346b1f3db3449a6fd05585d849802543dadd44a10cdf1e3"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 24884450,
+      "sha256": "1e9199cd8d205acec1b8381177826d177f4dc3165d572c02c0978f47e29788b4"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 268284,
+      "sha256": "fc2eb0d098c741b60ae92f282a533db7c974adc1286a56a263a12abadb7bb503"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 41473250,
+      "sha256": "d8ca1bcaeb64f57bff82deb66440d84b83eb4c0d02d235fff3687154ff053589"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 447030,
+      "sha256": "6ac79835b066e0066c6c089c9ea54f969cb0af88e17fcec959299a506b210540"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 24884450,
+      "sha256": "0c349936bff15fd7ecbfaf4e73a071c057ef8d6c9fd3e82f2fe9fb225e0ed569"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 268284,
+      "sha256": "fc2eb0d098c741b60ae92f282a533db7c974adc1286a56a263a12abadb7bb503"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 41473250,
+      "sha256": "de928c93d1779e2d6b8bec18a69a062b251494a2ca312cba52b84ef563932e55"
+    },
+    {
+      "path": "data/image_noproj_features/eurosat/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 447030,
+      "sha256": "6ac79835b066e0066c6c089c9ea54f969cb0af88e17fcec959299a506b210540"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 10240226,
+      "sha256": "04fc3026793617276153ac54191f5926c3d5e31d9605e16f2ceb222c2eca9517"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 73357,
+      "sha256": "431c0d43195e8999b262ef3a866d87a9026c6914a7b034b86c4291c030983ff7"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 10243298,
+      "sha256": "473fb6bd83aa9a1d4159729327ae05f68b85becf59e1eef9918325ff6469117d"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 73379,
+      "sha256": "71586fa2e6f9625a0d18245565f0fe341cc055f2e2398b3fce94fe5f08947a5f"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 10240226,
+      "sha256": "6e65ef5c4c855c28da043f4041f0f1294dc103f662ece32777ea1bc7029d283c"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 73357,
+      "sha256": "431c0d43195e8999b262ef3a866d87a9026c6914a7b034b86c4291c030983ff7"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 10243298,
+      "sha256": "8ede3a1fbc2a530d4f971a076b8510686c526c08039ffaa323d85e72712393c2"
+    },
+    {
+      "path": "data/image_noproj_features/fgvc_aircraft/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 73379,
+      "sha256": "71586fa2e6f9625a0d18245565f0fe341cc055f2e2398b3fce94fe5f08947a5f"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 93082850,
+      "sha256": "fba00eb122cfa120a3832716a19de95a5790fbaf8fc7ee3d0ecf0880dab9772a"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 799929,
+      "sha256": "2007d6d166109755f956ed25d39df00cabc2dea54823f624c2483dcc30ccb98d"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 155137250,
+      "sha256": "90b4bef53ee0b508f3d607a248ff8737c2993d3f517946773dd7b0f43e881020"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 1332705,
+      "sha256": "b4da4579862c4c8588501fc6387130cfab946c39cbfc49c0edb3e3194532ae23"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 93082850,
+      "sha256": "d5bcc3a8db74b12094f50f43fade4ba32df95d802988673841fa85e336076fb6"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 799929,
+      "sha256": "2007d6d166109755f956ed25d39df00cabc2dea54823f624c2483dcc30ccb98d"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 155137250,
+      "sha256": "7eebb78b7fc9ea1170323fbb5a7cc6bdf7bd520de3b6cb4f51bc099d56bbffa0"
+    },
+    {
+      "path": "data/image_noproj_features/food101/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 1332705,
+      "sha256": "b4da4579862c4c8588501fc6387130cfab946c39cbfc49c0edb3e3194532ae23"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 7567586,
+      "sha256": "37ff9e41e02594a8d3876679d63a061d0f5ff546ae7ed0882df3dc26911ac467"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 56669,
+      "sha256": "af7cfe562aff42e1d9565669e1da831d9792fb6cd9f8f73ffc6a30acd726f171"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 12574946,
+      "sha256": "3462a845f9d8598ee55965e951ef8f9da29fdfeb780a880cea5951672aecfbc0"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 94172,
+      "sha256": "c6c65f50515bfa6f77940e19294db3cef14fb9cc05bbc5952b6f16771fce2073"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 7567586,
+      "sha256": "b34f1c57f221e89bdc16d19071cadad9f79445d7d3795f6f64c6af3ab8a35196"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 56669,
+      "sha256": "af7cfe562aff42e1d9565669e1da831d9792fb6cd9f8f73ffc6a30acd726f171"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 12574946,
+      "sha256": "596d1a4b3d82306d893034567eba9836844bc61e2e71af1701e7563c8fc1ad8f"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_flowers/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 94172,
+      "sha256": "c6c65f50515bfa6f77940e19294db3cef14fb9cc05bbc5952b6f16771fce2073"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 11272418,
+      "sha256": "17804104a8881d47dcb9a6b771f1413dc418a12780c299f0b6f4469f33d0172e"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 109031,
+      "sha256": "f8083fecd87913c6b09ee86f3c068f446cf48083dc897db9faaa58cd823662c4"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 9045218,
+      "sha256": "4b678da8bc800cd64b13f862f5b331339af7d5053e3b4b5024deee98521e2a50"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 90059,
+      "sha256": "82d907d4b9eb07875500bfa1639b15ddc67715766fbd75d3ac4e41b3699adc04"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 11272418,
+      "sha256": "fe235f4762dc701a9ebf9c5cd7cd7088984600a9f8207037b933d5a420c31331"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 109031,
+      "sha256": "f8083fecd87913c6b09ee86f3c068f446cf48083dc897db9faaa58cd823662c4"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 9045218,
+      "sha256": "ecdc7a025f4ed09d9b0aebc3a2e875eb9ce4e6f3b0deabf923494f6e385e57bb"
+    },
+    {
+      "path": "data/image_noproj_features/oxford_pets/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 90059,
+      "sha256": "82d907d4b9eb07875500bfa1639b15ddc67715766fbd75d3ac4e41b3699adc04"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 24703202,
+      "sha256": "d2bbc453dd40e5047f3371de03155ab183a97e87898a1b8a60e3251794810ece"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 184993,
+      "sha256": "57e244291d28dd16681f216a3ed1b78692848a39ddcf3ff19586d6b488ab9cba"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 19996898,
+      "sha256": "23c0d3a7d3caeef12ab2445f23357e21530a3dbf1b1ee0d7f106d3419378502d"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 156262,
+      "sha256": "ce8e680e7b82bb025f0bfc23874e46b81f21b7311f39b28f815c48cf9bd82479"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 24703202,
+      "sha256": "7761118ed656160d4d0128123cf3fb6fe12f841b82659f6a2e3d0b10e9c6d7de"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 184993,
+      "sha256": "57e244291d28dd16681f216a3ed1b78692848a39ddcf3ff19586d6b488ab9cba"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 19996898,
+      "sha256": "176030cdb75a64277a2226cdc7584fc87b024f6339d7cf1709a08855ccae8c61"
+    },
+    {
+      "path": "data/image_noproj_features/stanford_cars/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 156262,
+      "sha256": "ce8e680e7b82bb025f0bfc23874e46b81f21b7311f39b28f815c48cf9bd82479"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 60980450,
+      "sha256": "ffcb5ade31133dcd33b4894ce35a9f5a34412a1ed3c2a20de54e7c3b820e407f"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 750303,
+      "sha256": "6ea8fedb56ffb972f92be972b145fecb5136702c62c872c3c0eb98b21f85cd17"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 48784610,
+      "sha256": "bb32c462f2a787ce5ce886c94faf5be15c3847dc917b6adb473c8837bafe0684"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 600247,
+      "sha256": "4999701f2c98f599700c6fc828f992349ea4b1e40d46f3199e05b449a57fa15c"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 60980450,
+      "sha256": "0ce911d6a5c5e1ee71f03e2ab6e3b15bf689106c987fb63c05e62798eec2db17"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 750303,
+      "sha256": "6ea8fedb56ffb972f92be972b145fecb5136702c62c872c3c0eb98b21f85cd17"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 48784610,
+      "sha256": "f10fa363fa3beb777e57324704807f356f09fb02975be4270282404b2230773a"
+    },
+    {
+      "path": "data/image_noproj_features/sun397/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 600247,
+      "sha256": "4999701f2c98f599700c6fc828f992349ea4b1e40d46f3199e05b449a57fa15c"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B16/test/image_noproj_features.pt",
+      "bytes": 11622626,
+      "sha256": "4a66571cf433e6810b36cbe60c255f26c75e864181af9b551320526001daa3b8"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B16/test/image_noproj_names.pkl",
+      "bytes": 156680,
+      "sha256": "db0c2db5494d17bd3c24876b29e49617f5dce380c3225531d2ad58665dbff20d"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B16/train/image_noproj_features.pt",
+      "bytes": 23468258,
+      "sha256": "2f9b96da4c69c688a45d51e5ca25fadee1fa19764127a956cc5e2e63add574d5"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B16/train/image_noproj_names.pkl",
+      "bytes": 316162,
+      "sha256": "8e8d4e69ac4150e88e93e190968cf57dbf44deb73182bddf84d442685e3c6857"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B32/test/image_noproj_features.pt",
+      "bytes": 11622626,
+      "sha256": "81cc37d84e9a738718b0fc9be974aeff66adfdfee2fc845f9b3dd44f6a3e6d4f"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B32/test/image_noproj_names.pkl",
+      "bytes": 156680,
+      "sha256": "db0c2db5494d17bd3c24876b29e49617f5dce380c3225531d2ad58665dbff20d"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B32/train/image_noproj_features.pt",
+      "bytes": 23468258,
+      "sha256": "698415ca133436d9c7c8fa586dd2db12f704ed8fcaf749d4c5c12522d828274b"
+    },
+    {
+      "path": "data/image_noproj_features/ucf101/ViT-B32/train/image_noproj_names.pkl",
+      "bytes": 316162,
+      "sha256": "8e8d4e69ac4150e88e93e190968cf57dbf44deb73182bddf84d442685e3c6857"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B16/test_gallery/text_features.pt",
+      "bytes": 40981690,
+      "sha256": "3e939c909885b053e35ded4cab6a7f7888e51f821eba6764a79caa92eff9b2a0"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B16/test_gallery/text_names.pkl",
+      "bytes": 177637,
+      "sha256": "f54ef02fe640762a22869065aa43adff0acdd3f01cbf41fefebfc55ee43c61a8"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B16/test_query/text_features.pt",
+      "bytes": 10241210,
+      "sha256": "881521dcc4f1f28cf1cce34dd14ea74a2198aa3bd4f31ff94c2ed823db3202da"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B16/test_query/text_names.pkl",
+      "bytes": 44251,
+      "sha256": "3cd3067b56b9760adb403e781d8d4ed35d71a27731342561276662916b3eed4d"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B32/test_gallery/text_features.pt",
+      "bytes": 40981690,
+      "sha256": "392f3cb230d4a9c2a2e5812c9ab81d6edf8a93809949350a9feec9ce30eda6ca"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B32/test_gallery/text_names.pkl",
+      "bytes": 177637,
+      "sha256": "f54ef02fe640762a22869065aa43adff0acdd3f01cbf41fefebfc55ee43c61a8"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B32/test_query/text_features.pt",
+      "bytes": 10241210,
+      "sha256": "8cf59fe444710dd6c31f827e89c88dfd05b7643042c9a06e577b0637a1ea60e8"
+    },
+    {
+      "path": "data/text_features/coco_text/ViT-B32/test_query/text_names.pkl",
+      "bytes": 44251,
+      "sha256": "3cd3067b56b9760adb403e781d8d4ed35d71a27731342561276662916b3eed4d"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B16/val_gallery/text_features.pt",
+      "bytes": 8307898,
+      "sha256": "8c1d912bf5ebee68291ae160417c7bda88a29d60bab4620f48155fecd27134cd"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B16/val_gallery/text_names.pkl",
+      "bytes": 76121,
+      "sha256": "4a10be771f1439314b54cdc2486457e0b42c2fbeb858e6f4b88c549f6b401bbc"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B16/val_query/text_features.pt",
+      "bytes": 2077882,
+      "sha256": "a95497da30a93a756062a4eb551e722efb33e12cc936edaadab241b94721fa80"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B16/val_query/text_names.pkl",
+      "bytes": 19040,
+      "sha256": "b8131a4b873fe9a2f2c59d0c9cd89455750bf1f722fa5ba546f218e8d4ccfed6"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B32/val_gallery/text_features.pt",
+      "bytes": 8307898,
+      "sha256": "70fef76e648537041f0c85df39355470ae178b5514b26fe30b2a403647024558"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B32/val_gallery/text_names.pkl",
+      "bytes": 76121,
+      "sha256": "4a10be771f1439314b54cdc2486457e0b42c2fbeb858e6f4b88c549f6b401bbc"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B32/val_query/text_features.pt",
+      "bytes": 2077882,
+      "sha256": "fef536fe292a561ad788eedf78316a7eb6386027fde8c9aa06441c779428289d"
+    },
+    {
+      "path": "data/text_features/flickr30k_text/ViT-B32/val_query/text_names.pkl",
+      "bytes": 19040,
+      "sha256": "b8131a4b873fe9a2f2c59d0c9cd89455750bf1f722fa5ba546f218e8d4ccfed6"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B16/val_gallery/text_features.pt",
+      "bytes": 82945210,
+      "sha256": "ab60863a7a8b7bae5e55ee73f18dea919daaef3aaba9a8221e980bb8fb5651bd"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B16/val_gallery/text_names.pkl",
+      "bytes": 314133,
+      "sha256": "67e1ebe0e76ede52fc0b790d5f6f21b2fd6117125954aa3cde181a4c06b6a573"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B16/val_query/text_features.pt",
+      "bytes": 9217210,
+      "sha256": "d512fae19ac99399dffa11819481c09cd75c1d7c5832de995928fc8c6d574a9a"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B16/val_query/text_names.pkl",
+      "bytes": 34913,
+      "sha256": "f154edc2266482170fa9bfd3decedbf7b2567e89306d2d0eb5bcc5c8713d1128"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B32/val_gallery/text_features.pt",
+      "bytes": 82945210,
+      "sha256": "c2779784862e21fea608c3da45565df91d2775e58ac17b66806b208233f0786d"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B32/val_gallery/text_names.pkl",
+      "bytes": 314133,
+      "sha256": "67e1ebe0e76ede52fc0b790d5f6f21b2fd6117125954aa3cde181a4c06b6a573"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B32/val_query/text_features.pt",
+      "bytes": 9217210,
+      "sha256": "7ec72aa4894ddd425f42c2916ef2f750c475f4864e556d1e94f7503ab0323e01"
+    },
+    {
+      "path": "data/text_features/nocaps_text/ViT-B32/val_query/text_names.pkl",
+      "bytes": 34913,
+      "sha256": "f154edc2266482170fa9bfd3decedbf7b2567e89306d2d0eb5bcc5c8713d1128"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B16/test_gallery/text_noproj_features.pt",
+      "bytes": 40981725,
+      "sha256": "809674c3c0200ecb036838e6d58867ee645143b9cabf5d482f995ee714407bcd"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B16/test_gallery/text_noproj_names.pkl",
+      "bytes": 177637,
+      "sha256": "f54ef02fe640762a22869065aa43adff0acdd3f01cbf41fefebfc55ee43c61a8"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B16/test_query/text_noproj_features.pt",
+      "bytes": 10241245,
+      "sha256": "6c83fb885de7da7d2b3c04a5cf8346e034aedebca8d0b05c6f1a76b418b4d4b4"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B16/test_query/text_noproj_names.pkl",
+      "bytes": 44251,
+      "sha256": "3cd3067b56b9760adb403e781d8d4ed35d71a27731342561276662916b3eed4d"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B32/test_gallery/text_noproj_features.pt",
+      "bytes": 40981725,
+      "sha256": "b892ea2a4710bd692bf7e05b1d5f3ae3fcab3ad296fa3777edd45e02b78609f1"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B32/test_gallery/text_noproj_names.pkl",
+      "bytes": 177637,
+      "sha256": "f54ef02fe640762a22869065aa43adff0acdd3f01cbf41fefebfc55ee43c61a8"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B32/test_query/text_noproj_features.pt",
+      "bytes": 10241245,
+      "sha256": "c94f80a33151709d7a7f511c9de46583cb0d036fa947c8274037591f2e8121c9"
+    },
+    {
+      "path": "data/text_noproj_features/coco_text/ViT-B32/test_query/text_noproj_names.pkl",
+      "bytes": 44251,
+      "sha256": "3cd3067b56b9760adb403e781d8d4ed35d71a27731342561276662916b3eed4d"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B16/val_gallery/text_noproj_features.pt",
+      "bytes": 8307933,
+      "sha256": "6acf6d18a578a6f5881c112d9454f46f512e34885c62f64b85690d1fae6dfb46"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B16/val_gallery/text_noproj_names.pkl",
+      "bytes": 76121,
+      "sha256": "4a10be771f1439314b54cdc2486457e0b42c2fbeb858e6f4b88c549f6b401bbc"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B16/val_query/text_noproj_features.pt",
+      "bytes": 2077917,
+      "sha256": "1d7af83781ea71e3444687b586ad2d09a31fec93a412cdf4a4e5617cf888638c"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B16/val_query/text_noproj_names.pkl",
+      "bytes": 19040,
+      "sha256": "b8131a4b873fe9a2f2c59d0c9cd89455750bf1f722fa5ba546f218e8d4ccfed6"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B32/val_gallery/text_noproj_features.pt",
+      "bytes": 8307933,
+      "sha256": "16ab91a7d2c6bf78f3421ff091252f96ef4206909505905508f1fcdc16308794"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B32/val_gallery/text_noproj_names.pkl",
+      "bytes": 76121,
+      "sha256": "4a10be771f1439314b54cdc2486457e0b42c2fbeb858e6f4b88c549f6b401bbc"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B32/val_query/text_noproj_features.pt",
+      "bytes": 2077917,
+      "sha256": "7b2fd5e5506d9f133639f1f9caddbf3d6ab8566e756cf168643908b16f4eef78"
+    },
+    {
+      "path": "data/text_noproj_features/flickr30k_text/ViT-B32/val_query/text_noproj_names.pkl",
+      "bytes": 19040,
+      "sha256": "b8131a4b873fe9a2f2c59d0c9cd89455750bf1f722fa5ba546f218e8d4ccfed6"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B16/val_gallery/text_noproj_features.pt",
+      "bytes": 82945245,
+      "sha256": "7d0b067bcdb91274e5fa35da41e3fc86a4017747b74971f84912bb500bc6830d"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B16/val_gallery/text_noproj_names.pkl",
+      "bytes": 314133,
+      "sha256": "67e1ebe0e76ede52fc0b790d5f6f21b2fd6117125954aa3cde181a4c06b6a573"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B16/val_query/text_noproj_features.pt",
+      "bytes": 9217245,
+      "sha256": "494ac5e8b4e8be6c75ef25c8fc728a18bcb38077308819f4d2414338372f4b94"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B16/val_query/text_noproj_names.pkl",
+      "bytes": 34913,
+      "sha256": "f154edc2266482170fa9bfd3decedbf7b2567e89306d2d0eb5bcc5c8713d1128"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B32/val_gallery/text_noproj_features.pt",
+      "bytes": 82945245,
+      "sha256": "b4f75ef6aa0bbb7f875726ff4381190f21203ff9d0cc0f7238b5af45b0ba9f59"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B32/val_gallery/text_noproj_names.pkl",
+      "bytes": 314133,
+      "sha256": "67e1ebe0e76ede52fc0b790d5f6f21b2fd6117125954aa3cde181a4c06b6a573"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B32/val_query/text_noproj_features.pt",
+      "bytes": 9217245,
+      "sha256": "531d58a3d7747f8219629c697143c586082fdba3e3488606ac8573987fd3612a"
+    },
+    {
+      "path": "data/text_noproj_features/nocaps_text/ViT-B32/val_query/text_noproj_names.pkl",
+      "bytes": 34913,
+      "sha256": "f154edc2266482170fa9bfd3decedbf7b2567e89306d2d0eb5bcc5c8713d1128"
+    }
+  ],
+  "raw_image_datasets_included": false,
+  "model_weights_included": false,
+  "release": "https://github.com/LulalaLucas/IsoCLIP-research/releases/tag/data-20261114"
+}

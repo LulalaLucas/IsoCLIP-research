@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-14T12:09:10.201200+00:00",
+  "python": "3.10.14",
+  "platform": "Linux-5.14.0-284.25.1.el9_2.x86_64-x86_64-with-glibc2.39",
+  "torch": "2.1.1+cu121",
+  "torchvision": "0.16.1+cu121",
+  "torch_cuda_runtime": "12.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA H100 80GB HBM3 MIG 3g.40gb",
+  "source_dependencies": {
+    "clip": {
+      "revision": "551aca347511f782a0f3980e93603194a539e853",
+      "url": "https://github.com/openai/CLIP.git"
+    },
+    "dassl": {
+      "revision": "c61a1b570ac6333bd50fb5ae06aea59002fb20bb",
+      "url": "https://github.com/KaiyangZhou/Dassl.pytorch.git"
+    }
+  },
+  "model_package": "0.1.0",
+  "restoration": "Install the portable pinned requirements, then install this repository editable with --no-deps."
+}

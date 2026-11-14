@@ -1,6 +1,6 @@
 # IsoCLIP：代码与运行配置
 
-本仓库只保存源码、实验配置、依赖说明和使用README。数据集、模型权重、特征缓存、结果表、报告、PPT及历史归档均留在本地研究工作区。
+本仓库保存源码、实验配置、完整环境定义与使用README；特征缓存作为同一私有仓库的Release附件提供。结果表、报告、PPT、原始图像数据集、模型权重和历史归档不包含在本次上传中。
 
 当前代码围绕纯IsoCLIP组织：冻结CLIP骨干，分别实现中心化、去均值方向、PCA、白化、近邻方向、B2/B8共识和源监督三参数谱倍率，并通过明确配置控制策略组合。
 
@@ -31,7 +31,7 @@ python -m unittest discover -s tests -v
 
 ## 运行探索
 
-阅读[实验README](experiments/iso_b32/README.md)。计算需要在本地准备真实特征缓存与固定训练／测试身份；这些二进制输入不随本仓库上传。修改配置中的路径及新的输出目录后运行：
+阅读[实验README](experiments/iso_b32/README.md)，并按[data下载说明](data/README.md)恢复特征缓存。计算还需要相应数据集元数据及配置约定的准备输入。修改配置中的路径及新的输出目录后运行：
 
 ```bash
 python -m isoclip.evaluate --config experiments/iso_b32/configs/center_b8.json
@@ -40,3 +40,7 @@ python -m isoclip.evaluate --config experiments/iso_b32/configs/center_b8.json
 代码要求输出目录尚不存在。图像与文本特征缓存使用`data/`，运行产物使用`runs/`。历史启动器保留原服务器的具体路径和已完成命令注释，换环境时需按实际位置调整。
 
 原方法与作者项目：[IsoCLIP](https://github.com/simomagi/IsoCLIP)。原许可证见[LICENSE](LICENSE)。
+
+## 环境与数据
+
+先按[环境恢复说明](environment/README.md)安装实际实验的完整锁定依赖，再按[数据下载说明](data/README.md)恢复图像／文本特征缓存。数据包受本私有仓库相同的访问权限控制。

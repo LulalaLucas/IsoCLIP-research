@@ -1,5 +1,7 @@
 # Local data, model files and generated outputs
-data/
+data/*
+!data/README.md
+!data/manifest.json
 runs/
 cache/
 models/
@@ -44,3 +46,7 @@ __pycache__/
 build/
 dist/
 .vscode/
+
+# Downloaded release manifests and checksums
+/DATA_MANIFEST.json
+/SHA256SUMS
