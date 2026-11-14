@@ -1,0 +1,7 @@
+{
+  "dataset": "dtd",
+  "classes": 47,
+  "split_file": "/data/260010047/lky/datasets/dtd/split_zhou_DescribableTextures.json",
+  "image_root": "/data/260010047/lky/datasets/dtd/images",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/dtd_data_verification.json"
+}

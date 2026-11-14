@@ -1,0 +1,17 @@
+{
+  "tag": "sun397_zeroshot_b16_seed42",
+  "backbone": "b16",
+  "method": "zeroshot",
+  "arguments": {
+    "dataroot": "/data/260010047/lky/datasets",
+    "out_path": "/data/260010047/lky/IsoCLIP/reproduction/classification/results/sun397_zeroshot_b16_seed42",
+    "dataset_name": "sun397",
+    "eval_type": "zeroshot",
+    "seed": 42,
+    "iso_ktop": 200,
+    "iso_kbottom": 50,
+    "clip_model_name": "ViT-B/16",
+    "use_open_clip": false,
+    "open_clip_pretrained": null
+  }
+}

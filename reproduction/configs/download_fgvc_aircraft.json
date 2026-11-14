@@ -1,0 +1,12 @@
+{
+  "name": "fgvc_aircraft",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/fgvc_aircraft.zip",
+  "destination": "/data/260010047/lky/datasets/archives/fgvc_aircraft.zip",
+  "size": 2753400393,
+  "sha256": "84ede9f7272e9942bb687d427dd1184dbacc9814a7303174746deb6fb0b56530",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

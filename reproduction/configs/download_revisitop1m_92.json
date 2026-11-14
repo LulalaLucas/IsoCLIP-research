@@ -1,0 +1,10 @@
+{
+  "name": "revisitop1m_volume92",
+  "url": "http://ptak.felk.cvut.cz/revisitop/revisitop1m/jpg/revisitop1m.92.tar.gz",
+  "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.92.tar.gz",
+  "size": 5041830173,
+  "sha256": null,
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

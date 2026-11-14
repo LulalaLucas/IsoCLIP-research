@@ -1,0 +1,7 @@
+{
+  "dataset": "ucf101",
+  "classes": 101,
+  "split_file": "/data/260010047/lky/datasets/ucf101/split_zhou_UCF101.json",
+  "image_root": "/data/260010047/lky/datasets/ucf101/UCF-101-midframes",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/ucf101_data_verification.json"
+}

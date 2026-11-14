@@ -1,0 +1,12 @@
+{
+  "name": "stanford_cars",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/stanford_cars.zip",
+  "destination": "/data/260010047/lky/datasets/archives/stanford_cars.zip",
+  "size": 1959002685,
+  "sha256": "50812812f33534ef2906b992762f96e8a5bb57b0eedc53800e91b7ed599abf8e",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

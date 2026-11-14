@@ -1,0 +1,10 @@
+{
+  "name": "roxford5k_base",
+  "url": "https://thor.robots.ox.ac.uk/oxbuildings/oxbuild_images-v1.tgz",
+  "destination": "/data/260010047/lky/datasets/archives/oxbuild_images-v1.tgz",
+  "size": 1938238004,
+  "sha256": null,
+  "workers": 8,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

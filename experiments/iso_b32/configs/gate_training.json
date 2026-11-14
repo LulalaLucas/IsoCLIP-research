@@ -1,0 +1,16 @@
+{
+  "identifier": "gate_training",
+  "seed": 20261105,
+  "steps": 2000,
+  "degree": 3,
+  "learning_rate": 0.01,
+  "temperature": 0.07,
+  "regularization": 0.1,
+  "sources": [
+    "cub2011",
+    "oxford_pets",
+    "stanford_cars"
+  ],
+  "output": "runs/iso_b32/gate_training",
+  "prepared": "reproduction/research/iso_baseline_study/prepared"
+}

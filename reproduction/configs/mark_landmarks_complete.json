@@ -1,0 +1,1 @@
+{"datasets": ["roxford5k", "rparis6k"], "launchers": ["run_roxford5k_seed42.sh", "run_rparis6k_seed42.sh", "finish_landmarks_seed42.sh"]}

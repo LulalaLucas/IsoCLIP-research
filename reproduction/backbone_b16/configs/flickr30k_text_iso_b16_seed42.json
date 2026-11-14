@@ -1,0 +1,13 @@
+{
+  "dataroot": "/data/260010047/lky/datasets",
+  "dataset_name": "flickr30k_text",
+  "clip_model_name": "ViT-B/16",
+  "query_eval_type": "text",
+  "gallery_eval_type": "text",
+  "query_split": "val_query",
+  "gallery_split": "val_gallery",
+  "seed": 42,
+  "out_path": "/data/260010047/lky/IsoCLIP/reproduction/backbone_b16/results/flickr30k_text_iso_b16_seed42",
+  "iso_ktop": 10,
+  "iso_kbottom": 50
+}

@@ -1,0 +1,12 @@
+{
+  "name": "oxford_pets",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/oxford_pets.zip",
+  "destination": "/data/260010047/lky/datasets/archives/oxford_pets.zip",
+  "size": 1610563762,
+  "sha256": "488a167b7cd61ab68efc05adc184118a324054e464608a1569e78caeff218a00",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isoclip-research"
+version = "0.1.0"
+description = "Pure IsoCLIP reproduction and controlled subspace adaptation"
+requires-python = ">=3.10"
+dependencies = ["torch", "numpy", "scikit-learn"]
+
+[tool.setuptools.packages.find]
+include = ["isoclip*"]

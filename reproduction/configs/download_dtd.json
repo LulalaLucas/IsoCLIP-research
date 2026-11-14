@@ -1,0 +1,12 @@
+{
+  "name": "dtd",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/dtd.zip",
+  "destination": "/data/260010047/lky/datasets/archives/dtd.zip",
+  "size": 626071992,
+  "sha256": "5ba4d3000e60f5541ba15a082033ca0696eee68125e9c28edff3dbe22f04313b",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

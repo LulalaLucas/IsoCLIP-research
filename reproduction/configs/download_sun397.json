@@ -1,0 +1,12 @@
+{
+  "name": "sun397",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/sun397.zip",
+  "destination": "/data/260010047/lky/datasets/archives/sun397.zip",
+  "size": 39182693483,
+  "sha256": "ce6dee6685c9f1d592c8297e193dde885aa9c50d008fd998a38ccc57a3dda722",
+  "workers": 64,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

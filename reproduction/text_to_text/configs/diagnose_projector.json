@@ -1,0 +1,4 @@
+{
+  "checkpoint": "/data/260010047/lky/cache/clip/ViT-B-32.pt",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/text_to_text/results/projector_precision_diagnostic.json"
+}

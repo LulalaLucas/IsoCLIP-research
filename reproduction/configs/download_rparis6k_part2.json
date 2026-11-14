@@ -1,0 +1,10 @@
+{
+  "name": "rparis6k_part2",
+  "url": "https://thor.robots.ox.ac.uk/parisbuildings/paris_2-v1.tgz",
+  "destination": "/data/260010047/lky/datasets/archives/paris_2-v1.tgz",
+  "size": 1338608359,
+  "sha256": null,
+  "workers": 8,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

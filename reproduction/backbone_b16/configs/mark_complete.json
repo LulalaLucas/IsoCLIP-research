@@ -1,0 +1,5 @@
+{
+  "launcher": "reproduction/backbone_b16/run_all.sh",
+  "audit": "reproduction/backbone_b16/results/verification/audit.json",
+  "summary": "reproduction/backbone_b16/results/summary.json"
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "stanford_cars",
+  "classes": 196,
+  "split_file": "/data/260010047/lky/datasets/stanford_cars/split_zhou_StanfordCars.json",
+  "image_root": "/data/260010047/lky/datasets/stanford_cars",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/stanford_cars_data_verification.json"
+}

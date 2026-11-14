@@ -1,0 +1,807 @@
+{
+  "source_revision": "b47067071a6050d52ad4ef3dbf64e4a9b5a58c08",
+  "workers": 8,
+  "parts": [
+    {
+      "number": 1,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.1.tar.gz",
+      "size": 245873820,
+      "sha256": "ffe238e21101a5432fd0133b8a931fccb8651be2ed3f2ba63e8b3e8f6e0ef177",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.1.tar.gz"
+    },
+    {
+      "number": 2,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.2.tar.gz",
+      "size": 301827014,
+      "sha256": "909d1fbb5e1e4ae90d2c90cc82612c8e326ac9d64fd486187ad910be83fade0c",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.2.tar.gz"
+    },
+    {
+      "number": 3,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.3.tar.gz",
+      "size": 332459500,
+      "sha256": "7cdd526165294eb4c5389ef0799c485a1d6d389e526858460b0c7ef9588f2a82",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.3.tar.gz"
+    },
+    {
+      "number": 4,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.4.tar.gz",
+      "size": 351238901,
+      "sha256": "a0c42f2a6a736bbd6462bd0f81efa8a34ed94a7f3159811e8105cc8759ceb8f9",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.4.tar.gz"
+    },
+    {
+      "number": 5,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.5.tar.gz",
+      "size": 310607817,
+      "sha256": "9814c278ee1cd072933a12c3843a2c7362d0b5c07df6379d816a6d30c99313da",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.5.tar.gz"
+    },
+    {
+      "number": 6,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.6.tar.gz",
+      "size": 312996270,
+      "sha256": "f57cbd3366abaf549e7349c3130063c00c55a0737bde7874dc18f919fa228141",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.6.tar.gz"
+    },
+    {
+      "number": 7,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.7.tar.gz",
+      "size": 4580926244,
+      "sha256": "0dabb87f09cc71e44bcec2e751fb54353e276222ac405660c2319bed531bd99f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.7.tar.gz"
+    },
+    {
+      "number": 8,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.8.tar.gz",
+      "size": 5038924441,
+      "sha256": "fd42c0a99f45125d83284d63614d35f0b420e8a17f71020b0010f1ba3d762d76",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.8.tar.gz"
+    },
+    {
+      "number": 9,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.9.tar.gz",
+      "size": 5054495110,
+      "sha256": "942b9072b7110993db9f1d9999642d1bf92a1afadc766bdc79f5f84df84e92e3",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.9.tar.gz"
+    },
+    {
+      "number": 10,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.10.tar.gz",
+      "size": 5053443161,
+      "sha256": "c0537cc65766f03d5d83ca22c2e8584cc0d2c6c7746ba3d7650d7172f0bd4070",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.10.tar.gz"
+    },
+    {
+      "number": 11,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.11.tar.gz",
+      "size": 5133617687,
+      "sha256": "72b6d112326c390484525409e5d4ff68302fad92187e618bb0acc67008188b95",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.11.tar.gz"
+    },
+    {
+      "number": 12,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.12.tar.gz",
+      "size": 5040537772,
+      "sha256": "202349f220bb746c085b10c589215cff6905848817627020839a0b1f8cb0ebb8",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.12.tar.gz"
+    },
+    {
+      "number": 13,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.13.tar.gz",
+      "size": 5018046173,
+      "sha256": "78cd3a25cc4e93c1a6033dbe85b7800f5270453a82b9054040776507f77626fa",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.13.tar.gz"
+    },
+    {
+      "number": 14,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.14.tar.gz",
+      "size": 4995045547,
+      "sha256": "584c5f0c4952d26671723977e666d11e8c99c971cbec3a10895aa82f83737bc5",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.14.tar.gz"
+    },
+    {
+      "number": 15,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.15.tar.gz",
+      "size": 5054503936,
+      "sha256": "b3768f36e2412197a69a2817e47bead90d69c2012a81348e580682c0317559bd",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.15.tar.gz"
+    },
+    {
+      "number": 16,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.16.tar.gz",
+      "size": 4993631736,
+      "sha256": "55eb2eda3646f0e25c4a11c10ad5e415c3d7842f852bb81df70c75e708414b33",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.16.tar.gz"
+    },
+    {
+      "number": 17,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.17.tar.gz",
+      "size": 5126556992,
+      "sha256": "8c2be77f4e4f853138268df026fd0900f218f0020cca93c86db4a07844f24933",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.17.tar.gz"
+    },
+    {
+      "number": 18,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.18.tar.gz",
+      "size": 4989966686,
+      "sha256": "f73cd55dfbf89311a0eaec52ecd0c4af363b5a365e76766499dc1479a65155ba",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.18.tar.gz"
+    },
+    {
+      "number": 19,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.19.tar.gz",
+      "size": 4944558968,
+      "sha256": "b021a9386ea10e3f9e1f15bc0d07ff529a371a97b6d1e0369b0356f0a63956e2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.19.tar.gz"
+    },
+    {
+      "number": 20,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.20.tar.gz",
+      "size": 5193737725,
+      "sha256": "43afe43dac68c8ab956254065090fb4cdd4abe0321997c930a2bbd506243c6e2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.20.tar.gz"
+    },
+    {
+      "number": 21,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.21.tar.gz",
+      "size": 5026468920,
+      "sha256": "089d9e1140884a00e2cf5def79369a3d4c5210784edcd1e2692ab7b2af9bca6b",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.21.tar.gz"
+    },
+    {
+      "number": 22,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.22.tar.gz",
+      "size": 5188431589,
+      "sha256": "d751275e85efd91ccde4e79bc3e8a24d0de5692b950995a41b66a321b0475e32",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.22.tar.gz"
+    },
+    {
+      "number": 23,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.23.tar.gz",
+      "size": 5131211642,
+      "sha256": "5e77789cefdeefc9a66b5b7422a2e17ede4fdc1372630f423f0d7d14b27b2386",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.23.tar.gz"
+    },
+    {
+      "number": 24,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.24.tar.gz",
+      "size": 5182576263,
+      "sha256": "a1be594d331e64e4cf9058c6f389f6f0e360e9e90c890888c552023b455f001e",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.24.tar.gz"
+    },
+    {
+      "number": 25,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.25.tar.gz",
+      "size": 4872505906,
+      "sha256": "0ac25576ded31026e4c2f5669f82faca558d69e489768ce0573969db7cd3168d",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.25.tar.gz"
+    },
+    {
+      "number": 26,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.26.tar.gz",
+      "size": 4949683900,
+      "sha256": "7cdeab0b1eb7ec0efbdd484c3aebc689ad28e4c3bfd7c5f6952923a26a9dac97",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.26.tar.gz"
+    },
+    {
+      "number": 27,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.27.tar.gz",
+      "size": 5093758267,
+      "sha256": "9daead25b488ee106353a99781a948ef99f0a77d586868a09a709daea46e97c3",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.27.tar.gz"
+    },
+    {
+      "number": 28,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.28.tar.gz",
+      "size": 5009175872,
+      "sha256": "8d9f3a8c4c946a88b6c3de2a5e8610631ac2eb03f923d3e22dc357e639d6b61f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.28.tar.gz"
+    },
+    {
+      "number": 29,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.29.tar.gz",
+      "size": 5194502135,
+      "sha256": "ac51be161dfb384a50bdff85d0ff3b37e780119c180b56cf6f9f97a8664258ab",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.29.tar.gz"
+    },
+    {
+      "number": 30,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.30.tar.gz",
+      "size": 5003477149,
+      "sha256": "7066768f0f049727579b455e828323b47b1049e95e462cf640d3b669d9e1c969",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.30.tar.gz"
+    },
+    {
+      "number": 31,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.31.tar.gz",
+      "size": 5132567133,
+      "sha256": "25530a2022a2da278fedb3f68603442daf7a917a75480150c4fc3939528f7548",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.31.tar.gz"
+    },
+    {
+      "number": 32,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.32.tar.gz",
+      "size": 4988574380,
+      "sha256": "3fb2eb577a15dea2896e839c49ee7185eb67699af2812931dcceee2b68755602",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.32.tar.gz"
+    },
+    {
+      "number": 33,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.33.tar.gz",
+      "size": 5105838238,
+      "sha256": "214be7f8b1e7078302eaf15511d2cd5ce7ca888228cc1b123786ee5c85f83be4",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.33.tar.gz"
+    },
+    {
+      "number": 34,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.34.tar.gz",
+      "size": 5023140144,
+      "sha256": "3489db2794ce2afad04562d78058de9775530e928038d6e91bb5b3ab7b33ea48",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.34.tar.gz"
+    },
+    {
+      "number": 35,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.35.tar.gz",
+      "size": 5028506377,
+      "sha256": "f1a728d568282e9290eef3b20327eb6698334aa90b2d36f880dfb7eca11139fc",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.35.tar.gz"
+    },
+    {
+      "number": 36,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.36.tar.gz",
+      "size": 5209029433,
+      "sha256": "6d0203ab94f40c12ddce898a47561777d05962199582a5e84386ad6045afa5a5",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.36.tar.gz"
+    },
+    {
+      "number": 37,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.37.tar.gz",
+      "size": 4942104641,
+      "sha256": "233bc2e35e11ab2824f1554e3d41beb68c5b877e80202735cfece0109f21d9c9",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.37.tar.gz"
+    },
+    {
+      "number": 38,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.38.tar.gz",
+      "size": 5019646595,
+      "sha256": "1ad00b8de5e9c2b462b29ebabdb97bbcff957302711c67b915d58e66082af212",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.38.tar.gz"
+    },
+    {
+      "number": 39,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.39.tar.gz",
+      "size": 4988377708,
+      "sha256": "ee98127873d8872e3113ee9d2448b91b96620886cf5f00e4c06bbfc6f2813d7f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.39.tar.gz"
+    },
+    {
+      "number": 40,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.40.tar.gz",
+      "size": 5134527281,
+      "sha256": "2548afa3c29d589ad06917e33874a1d9e3c63983027358592c025817b02a60c4",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.40.tar.gz"
+    },
+    {
+      "number": 41,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.41.tar.gz",
+      "size": 5083869551,
+      "sha256": "b455537fcb12eb80aab3184ad5caffe8f869d4542fd5a8da82e5d9ded09912cf",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.41.tar.gz"
+    },
+    {
+      "number": 42,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.42.tar.gz",
+      "size": 4987214771,
+      "sha256": "058f74019a48cca3abd0ecb2066e118e3932d8c822d228a580622b377a57e892",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.42.tar.gz"
+    },
+    {
+      "number": 43,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.43.tar.gz",
+      "size": 5155739819,
+      "sha256": "962326fa36086050edfbd9985ee1b427a56d4a68ca7bf0808ca7d9c9019a534c",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.43.tar.gz"
+    },
+    {
+      "number": 44,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.44.tar.gz",
+      "size": 5007184014,
+      "sha256": "14e99c5fce59591cf450e01d2cc660aabcee07e7c9e11c628a76504e10693eec",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.44.tar.gz"
+    },
+    {
+      "number": 45,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.45.tar.gz",
+      "size": 5091832219,
+      "sha256": "ef1ef6bb206d49701ad2a7e1979c19d79c0af07624929ea3ca016c9357688122",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.45.tar.gz"
+    },
+    {
+      "number": 46,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.46.tar.gz",
+      "size": 5028205036,
+      "sha256": "e5515232d4a2309ee97a21e295883597cf7b7fa1cfaad404aa52113b4aaf67d2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.46.tar.gz"
+    },
+    {
+      "number": 47,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.47.tar.gz",
+      "size": 5201318259,
+      "sha256": "9f4ddfe8c598f62450b6f7849f1c550631a0020f37607ef52dc348afcfc40d43",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.47.tar.gz"
+    },
+    {
+      "number": 48,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.48.tar.gz",
+      "size": 4934336245,
+      "sha256": "ff5bf93764e0f063cae3d7e49ed2442b9c7a37787d441acc43ae78d445ae97c9",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.48.tar.gz"
+    },
+    {
+      "number": 49,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.49.tar.gz",
+      "size": 5106264267,
+      "sha256": "a2f1c218d7d2bdbe85114e3922688b2ba476799397fdbf94e6c1b4a0a7b6141a",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.49.tar.gz"
+    },
+    {
+      "number": 50,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.50.tar.gz",
+      "size": 5061259675,
+      "sha256": "c1efa6ca02be2f16f9a23b65a4d80d5886978fdb0ea2be9b2d27630e297c6958",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.50.tar.gz"
+    },
+    {
+      "number": 51,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.51.tar.gz",
+      "size": 5055085956,
+      "sha256": "7bc1fbbd07b1db6828bcb6fce06c8b20e2d0926863c90ebdf2f262c62a679145",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.51.tar.gz"
+    },
+    {
+      "number": 52,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.52.tar.gz",
+      "size": 5148156937,
+      "sha256": "5acfa3ff1e3fed5405687adfc964ac87a768948cca8e1d7ec191a34b1ab50420",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.52.tar.gz"
+    },
+    {
+      "number": 53,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.53.tar.gz",
+      "size": 4906084188,
+      "sha256": "0709cdd37571e86db8caeebf27961dedaa51061eb8c2de212dbe31c7ed8e7b0f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.53.tar.gz"
+    },
+    {
+      "number": 54,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.54.tar.gz",
+      "size": 5188926205,
+      "sha256": "29aca516546b249b08e4fb2287b2b7c9ddd5116d53cda47ec0b06aecb70d0f96",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.54.tar.gz"
+    },
+    {
+      "number": 55,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.55.tar.gz",
+      "size": 5089632708,
+      "sha256": "14e2368963d4954bfef680662fc70534e4b10419931145eb160029a5b919c199",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.55.tar.gz"
+    },
+    {
+      "number": 56,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.56.tar.gz",
+      "size": 5157144042,
+      "sha256": "9cc651d9600bedd442cf2c06dd642be05f378220e61a468263860b4bf7645edc",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.56.tar.gz"
+    },
+    {
+      "number": 57,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.57.tar.gz",
+      "size": 4845213171,
+      "sha256": "c00bd5f59819f86aa426314816542326e523f75c06292ef7daecdae250ffac68",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.57.tar.gz"
+    },
+    {
+      "number": 58,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.58.tar.gz",
+      "size": 5131509725,
+      "sha256": "2eccb0022990a4f7ed99ca643e0117f4215911fb181df01bbbc630018887bb67",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.58.tar.gz"
+    },
+    {
+      "number": 59,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.59.tar.gz",
+      "size": 5166644144,
+      "sha256": "54c946724b6f68863f4c21eb58cca24e139201ea34f2e3b69a165ccbb5740505",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.59.tar.gz"
+    },
+    {
+      "number": 60,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.60.tar.gz",
+      "size": 5040547741,
+      "sha256": "1bb5f492989be5f94329ea13db1c661c0ffdf413fc5cac62c98995cdf6bce87d",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.60.tar.gz"
+    },
+    {
+      "number": 61,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.61.tar.gz",
+      "size": 5179918959,
+      "sha256": "cc29addd0725f9c5c4ca5f1ab2083be71db46fbfa39775b3dbf51d55f6cbaf62",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.61.tar.gz"
+    },
+    {
+      "number": 62,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.62.tar.gz",
+      "size": 5131141487,
+      "sha256": "7469d01eb8bd2ab75951de73e67dd124e4bfb9573388ddcd91e66ae3a3089b67",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.62.tar.gz"
+    },
+    {
+      "number": 63,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.63.tar.gz",
+      "size": 5089031236,
+      "sha256": "35452f10ab61e151a12499a42d9491fb04bd3fef3f6acc3c4d327776f7a5887c",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.63.tar.gz"
+    },
+    {
+      "number": 64,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.64.tar.gz",
+      "size": 5042498082,
+      "sha256": "685c1b5d83aba1e8d171a06b6c635e2d550d05dfd320bd6bda5f24d7acbcb911",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.64.tar.gz"
+    },
+    {
+      "number": 65,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.65.tar.gz",
+      "size": 5186059042,
+      "sha256": "ba2ce54e83d6e744da6bb40cbe99e86b31d1cdabab89b710ca6ee44c746a177e",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.65.tar.gz"
+    },
+    {
+      "number": 66,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.66.tar.gz",
+      "size": 5091340175,
+      "sha256": "ade0714c0bc5abfbb6af8203c7318d3149e053a7d9cdb1480a1ca2a050b94e51",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.66.tar.gz"
+    },
+    {
+      "number": 67,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.67.tar.gz",
+      "size": 5008434282,
+      "sha256": "0e33b3ca00c932e38e1cf515a74518bc73445e7d4a437f1e806e9250ddf070e2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.67.tar.gz"
+    },
+    {
+      "number": 68,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.68.tar.gz",
+      "size": 5114121915,
+      "sha256": "2a8952fb4dce044f8867ad7532423ab995bf22f6457c4e83467c02a437d7306d",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.68.tar.gz"
+    },
+    {
+      "number": 69,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.69.tar.gz",
+      "size": 4922206445,
+      "sha256": "7458a2bffebf02b1a5a60e2eb68b7ece12bef58ce518f1920763c7e0a05a73cf",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.69.tar.gz"
+    },
+    {
+      "number": 70,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.70.tar.gz",
+      "size": 5121740014,
+      "sha256": "2b0d3935833bc76ebcbdbacc339260111ecb7a8c35442756b24d15ee68dc69e2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.70.tar.gz"
+    },
+    {
+      "number": 71,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.71.tar.gz",
+      "size": 5072944019,
+      "sha256": "433a30fcac8e6c5d9fe60168e6b4f99fde3fccce727207610aac0d9066208c4b",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.71.tar.gz"
+    },
+    {
+      "number": 72,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.72.tar.gz",
+      "size": 5141658172,
+      "sha256": "21fcdee3d94484c7ca34b4929ec758228014c7ccba44968cbd47e00e83143c16",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.72.tar.gz"
+    },
+    {
+      "number": 73,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.73.tar.gz",
+      "size": 5139111263,
+      "sha256": "dfe4ef6c07d358fc0424dbcb175fa618dbe15bbc1773970102811efd8e30a5a0",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.73.tar.gz"
+    },
+    {
+      "number": 74,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.74.tar.gz",
+      "size": 5050654452,
+      "sha256": "7375c5c7c74be6cdc6cc527a001294d2a506c3a8bb546ee2d6ad8724f0d8b341",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.74.tar.gz"
+    },
+    {
+      "number": 75,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.75.tar.gz",
+      "size": 4994885440,
+      "sha256": "eb502dd4dc3b22b9211a4b469e52669a29ada8c6a4556e1a1eb88df708b0a1d9",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.75.tar.gz"
+    },
+    {
+      "number": 76,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.76.tar.gz",
+      "size": 4936563988,
+      "sha256": "8d3e8a9897b2fae4c9c1e233cb97b836413cd3043ea18994a99a9ea5e0f2c123",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.76.tar.gz"
+    },
+    {
+      "number": 77,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.77.tar.gz",
+      "size": 5142570454,
+      "sha256": "3d70d48e84a8cacec96d2619ba27bc6d148358073150c9a19f93ce060f7d3878",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.77.tar.gz"
+    },
+    {
+      "number": 78,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.78.tar.gz",
+      "size": 4977993945,
+      "sha256": "f39f53b37d09d826c5e11cd889b65af896504fdd4a9db1811595e311344f6b52",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.78.tar.gz"
+    },
+    {
+      "number": 79,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.79.tar.gz",
+      "size": 5027650222,
+      "sha256": "a27769c5993224c4a898ceff08098cccf18d6fbffd2977a1dfe4a654d2a33bb2",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.79.tar.gz"
+    },
+    {
+      "number": 80,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.80.tar.gz",
+      "size": 5051481098,
+      "sha256": "85154e064fae53691f05494aabe149c0ea02a7d7b509450c59c39acc3538cb1a",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.80.tar.gz"
+    },
+    {
+      "number": 81,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.81.tar.gz",
+      "size": 5210625639,
+      "sha256": "cb4145ba9babf1a9f08b9480e8dfabc196d8197738ead5988ffcee5de5b259fb",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.81.tar.gz"
+    },
+    {
+      "number": 82,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.82.tar.gz",
+      "size": 5026859070,
+      "sha256": "def166070a1d06ace06a50499c4127e980f435cf3c35bd372e5834c08773082d",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.82.tar.gz"
+    },
+    {
+      "number": 83,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.83.tar.gz",
+      "size": 5049465214,
+      "sha256": "929f2e7c5e45a0a8bc1a9d2a83b9372ba197286f0f48f998e31babb7e75116c7",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.83.tar.gz"
+    },
+    {
+      "number": 84,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.84.tar.gz",
+      "size": 5252290725,
+      "sha256": "0d4e85d9a27fe06285792f6c8abbd5e9375cd487197838c38ccc2dbe461823c1",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.84.tar.gz"
+    },
+    {
+      "number": 85,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.85.tar.gz",
+      "size": 5037184890,
+      "sha256": "2ce8d08c0b56ca8ba826340cc1f02d24464597d23db755a762d4de9925898284",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.85.tar.gz"
+    },
+    {
+      "number": 86,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.86.tar.gz",
+      "size": 5133905649,
+      "sha256": "a2e5e18b2cdc6a0e355e2657c5a8705f266844d0c6e34a01b7d9142f2af83db7",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.86.tar.gz"
+    },
+    {
+      "number": 87,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.87.tar.gz",
+      "size": 5116382875,
+      "sha256": "fed24eb581b5dfd265c59de189211a7f0ce0941352f864056aace24a5b346a59",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.87.tar.gz"
+    },
+    {
+      "number": 88,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.88.tar.gz",
+      "size": 5047879700,
+      "sha256": "6c614fdb2b62e0710243ce3592f871cd2260fe179f92da44944259981a5d290f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.88.tar.gz"
+    },
+    {
+      "number": 89,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.89.tar.gz",
+      "size": 4960300110,
+      "sha256": "54f6b33fcedbed497fe892d78543a15400020e2d33a1cd062fc1734f01356eb9",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.89.tar.gz"
+    },
+    {
+      "number": 90,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.90.tar.gz",
+      "size": 4994937435,
+      "sha256": "38814caee20392cd9ce752514b58c347b3de9435e85fd44cc0229219e1cce369",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.90.tar.gz"
+    },
+    {
+      "number": 91,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.91.tar.gz",
+      "size": 5123783454,
+      "sha256": "7abedd810ab715956d06b077639ef24c710eefb765986f4a1cabb1ed3447f51c",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.91.tar.gz"
+    },
+    {
+      "number": 92,
+      "url": "http://ptak.felk.cvut.cz/revisitop/revisitop1m/jpg/revisitop1m.92.tar.gz",
+      "size": 5041830173,
+      "sha256": null,
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.92.tar.gz"
+    },
+    {
+      "number": 93,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.93.tar.gz",
+      "size": 5135694395,
+      "sha256": "89392173534cd6144c5b101f642169ff3aa210eb786e3c8db0f1433570ab2c57",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.93.tar.gz"
+    },
+    {
+      "number": 94,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.94.tar.gz",
+      "size": 4957469624,
+      "sha256": "ab6eb93d286a2a5e5dedc35a79c2c459452983f582289ea7587ba29868145b44",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.94.tar.gz"
+    },
+    {
+      "number": 95,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.95.tar.gz",
+      "size": 5112633877,
+      "sha256": "7c16dfbd2272130de6f3385a4587fdccaa46e6812c4753265b317ba21cfecc0c",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.95.tar.gz"
+    },
+    {
+      "number": 96,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.96.tar.gz",
+      "size": 5025377913,
+      "sha256": "8a27476e3cd19ee10e2a29132d01df96e3e975c1ee5d69d3d131bf4c14484776",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.96.tar.gz"
+    },
+    {
+      "number": 97,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.97.tar.gz",
+      "size": 5161434878,
+      "sha256": "ac973f1e8ba3265c0f18d7eb4ef4b2021bd8a8ad3538775469e86f77881d96cb",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.97.tar.gz"
+    },
+    {
+      "number": 98,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.98.tar.gz",
+      "size": 5044797175,
+      "sha256": "2825614c4269541bde8a5b788d372f8506517f5030502a13c4b4ff8f31a8074f",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.98.tar.gz"
+    },
+    {
+      "number": 99,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.99.tar.gz",
+      "size": 4950069150,
+      "sha256": "2603d7bc1170110362f0b866ddf8956926257aad13ad54466bc5ddb09abee2b7",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.99.tar.gz"
+    },
+    {
+      "number": 100,
+      "url": "https://huggingface.co/datasets/XiuyuanQi/revisitop1m/resolve/b47067071a6050d52ad4ef3dbf64e4a9b5a58c08/revisitop1m.100.tar.gz",
+      "size": 3774026919,
+      "sha256": "0a0a88260e46656408d736de4e018760022102d1f1a9f78fdc5ab0904452e82e",
+      "no_proxy": "",
+      "destination": "/data/260010047/lky/datasets/archives/revisitop1m/revisitop1m.100.tar.gz"
+    }
+  ],
+  "extract_root": "/data/260010047/lky/datasets/revisitop1m/jpg"
+}

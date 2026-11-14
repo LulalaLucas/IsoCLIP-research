@@ -1,0 +1,1 @@
+{"backbones": ["b32", "b16"], "methods": ["zeroshot", "ncm", "iso_ncm"], "seed": 42}

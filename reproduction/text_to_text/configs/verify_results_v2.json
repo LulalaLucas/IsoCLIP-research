@@ -1,0 +1,9 @@
+{
+  "protocol": "reproduction/text_to_text/data_and_protocol.json",
+  "out": "reproduction/text_to_text/results/verification_v2",
+  "datasets": [
+    {"clip": "reproduction/text_to_text/configs/coco_clip_b32_seed42.json", "iso": "reproduction/text_to_text/configs/coco_iso_b32_seed42.json"},
+    {"clip": "reproduction/text_to_text/configs/flickr30k_clip_b32_seed42.json", "iso": "reproduction/text_to_text/configs/flickr30k_iso_b32_seed42.json"},
+    {"clip": "reproduction/text_to_text/configs/nocaps_clip_b32_seed42.json", "iso": "reproduction/text_to_text/configs/nocaps_iso_b32_seed42.json"}
+  ]
+}

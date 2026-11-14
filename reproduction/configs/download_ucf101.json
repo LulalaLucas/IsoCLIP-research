@@ -1,0 +1,12 @@
+{
+  "name": "ucf101",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/ucf101.zip",
+  "destination": "/data/260010047/lky/datasets/archives/ucf101.zip",
+  "size": 140164538,
+  "sha256": "2fe1bd40e64408d02ff173badf744da557033ae6c75dd4ea51519366551f3ae6",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

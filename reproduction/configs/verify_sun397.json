@@ -1,0 +1,7 @@
+{
+  "dataset": "sun397",
+  "classes": 397,
+  "split_file": "/data/260010047/lky/datasets/sun397/split_zhou_SUN397.json",
+  "image_root": "/data/260010047/lky/datasets/sun397/SUN397",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/sun397_data_verification.json"
+}

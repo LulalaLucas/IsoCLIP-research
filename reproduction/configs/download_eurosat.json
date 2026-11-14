@@ -1,0 +1,12 @@
+{
+  "name": "eurosat",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/eurosat.zip",
+  "destination": "/data/260010047/lky/datasets/archives/eurosat.zip",
+  "size": 94808536,
+  "sha256": "cedceda1690cad47bc3b41eb6bf2d0a134ec7413558128409928829f06c74613",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

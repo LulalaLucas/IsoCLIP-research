@@ -1,0 +1,12 @@
+{
+  "name": "food101",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/food101.zip",
+  "destination": "/data/260010047/lky/datasets/archives/food101.zip",
+  "size": 5005224796,
+  "sha256": "b9f59577fcc4f85183b7a102b6f84eecf338fde6453fa486309dc2951efeb254",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

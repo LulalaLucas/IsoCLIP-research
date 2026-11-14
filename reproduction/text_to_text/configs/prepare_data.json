@@ -1,0 +1,9 @@
+{
+  "project": "/data/260010047/lky/IsoCLIP",
+  "dataroot": "/data/260010047/lky/datasets",
+  "archive": "reproduction/text_to_text/sources/caption_datasets.zip",
+  "archive_url": "https://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip",
+  "nocaps_source": "reproduction/text_to_text/sources/nocaps_val_4500_captions.json",
+  "nocaps_url": "https://drive.google.com/uc?export=download&id=1zrsLhT94nazJ5h-LleHsU4AojHBqpcA0",
+  "record": "reproduction/text_to_text/data_and_protocol.json"
+}

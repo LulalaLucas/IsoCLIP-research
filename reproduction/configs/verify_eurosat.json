@@ -1,0 +1,7 @@
+{
+  "dataset": "eurosat",
+  "classes": 10,
+  "split_file": "/data/260010047/lky/datasets/eurosat/split_zhou_EuroSAT.json",
+  "image_root": "/data/260010047/lky/datasets/eurosat/2750",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/eurosat_data_verification.json"
+}

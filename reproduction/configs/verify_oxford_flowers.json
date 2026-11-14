@@ -1,0 +1,7 @@
+{
+  "dataset": "oxford_flowers",
+  "classes": 102,
+  "split_file": "/data/260010047/lky/datasets/oxford_flowers/split_zhou_OxfordFlowers.json",
+  "image_root": "/data/260010047/lky/datasets/oxford_flowers/jpg",
+  "output": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/oxford_flowers_data_verification.json"
+}

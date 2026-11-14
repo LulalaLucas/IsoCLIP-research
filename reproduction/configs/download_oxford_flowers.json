@@ -1,0 +1,12 @@
+{
+  "name": "oxford_flowers",
+  "source_repository": "zhengli97/prompt_learning_dataset",
+  "source_revision": "ceb3112337fb6e1bf71534e355ca5569b63f19a6",
+  "url": "https://huggingface.co/zhengli97/prompt_learning_dataset/resolve/ceb3112337fb6e1bf71534e355ca5569b63f19a6/oxford_flowers.zip",
+  "destination": "/data/260010047/lky/datasets/archives/oxford_flowers.zip",
+  "size": 346454039,
+  "sha256": "bd8d090f0f28581458243cfe4d4a7b1cd5f3a3a8840096adb8bb7ad80020907e",
+  "workers": 16,
+  "no_proxy": "",
+  "parallel_ranges": 4
+}

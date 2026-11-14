@@ -1,0 +1,7 @@
+{
+  "url": "https://huggingface.co/datasets/XiN0919/FGVC/resolve/main/CUB_200_2011.tgz",
+  "destination": "/data/260010047/lky/datasets/CUB_200_2011.tgz",
+  "size": 1150585339,
+  "md5": "97eceeb196236b17998738112f37df78",
+  "workers": 16
+}

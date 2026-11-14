@@ -1,0 +1,31 @@
+{
+  "identifier": "soft25",
+  "backbone": "ViT-B/32",
+  "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "datasets": [
+    "cub2011",
+    "oxford_pets",
+    "stanford_cars",
+    "fgvc_aircraft",
+    "caltech101",
+    "eurosat",
+    "oxford_flowers",
+    "dtd",
+    "ucf101",
+    "food101",
+    "sun397"
+  ],
+  "parameters": {
+    "method": "soft",
+    "graph": "cosine",
+    "complement": 0.25,
+    "output_center": false,
+    "group": "single",
+    "input_variant": "iso"
+  },
+  "batch_size": 128,
+  "seed": 20261105,
+  "output": "runs/iso_b32/soft25",
+  "gate_checkpoint": "reproduction/research/iso_baseline_study/results/gate_training/gate.pt",
+  "prepared": "reproduction/research/iso_baseline_study/prepared"
+}

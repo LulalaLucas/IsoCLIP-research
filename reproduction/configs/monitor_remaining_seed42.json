@@ -1,0 +1,9 @@
+{
+  "interval_seconds": 45,
+  "paused_datasets": ["roxford5k", "rparis6k"],
+  "pause_reason": "User requested deferring R1M on 2026-11-05; stop acquisition and the two full-R1M evaluations, preserve all data and results.",
+  "workers": [
+    {"name": "SUN397 数据与评估", "group": 13493, "datasets": ["sun397"], "log": "finish_sun397_seed42.log", "paused": false},
+    {"name": "Oxford / Paris 数据与评估", "group": 20324, "datasets": ["roxford5k", "rparis6k"], "log": "finish_landmarks_seed42.log", "paused": true}
+  ]
+}

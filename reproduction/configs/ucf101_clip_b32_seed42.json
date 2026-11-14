@@ -1,0 +1,12 @@
+{
+  "dataroot": "/data/260010047/lky/datasets",
+  "dataset_name": "ucf101",
+  "clip_model_name": "ViT-B/32",
+  "query_eval_type": "image",
+  "gallery_eval_type": "image",
+  "query_split": "test",
+  "gallery_split": "train",
+  "seed": 42,
+  "out_path": "/data/260010047/lky/IsoCLIP/reproduction/results/remaining_seed42/ucf101_clip_b32",
+  "no_iso": true
+}
